@@ -7,14 +7,15 @@ before_install:
   - sudo rm /usr/local/bin/docker-compose
   - curl -L https://github.com/docker/compose/releases/download/1.24.1/docker-compose-`uname -s`-`uname -m` > docker-compose
   - chmod +x docker-compose
+
+script:
   - sudo mv docker-compose /usr/local/bin
   - curl -sLo vault.zip https://releases.hashicorp.com/vault/${VAULT_VERSION}/vault_${VAULT_VERSION}_linux_amd64.zip
   - unzip vault.zip
   - sudo mv vault /usr/local/bin
-
-script:
   - cd docker/
-  - docker-compose build
+  - docker-compose build --build-arg="$VAULT_VERSION"
   - docker-compose up -d
   - "docker-compose logs | grep 'HSM Manufacturer ID: SoftHSM'"
   - VAULT_ADDR=http://127.0.0.1:8200 VAULT_TOKEN=root vault status
+  - VAULT_ADDR=http://127.0.0.1:8200 VAULT_TOKEN=root vault status | grep ${VAULT_VERSION}
