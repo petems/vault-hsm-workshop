@@ -1,0 +1,17 @@
+version: "3"
+services:
+  vault:
+    environment:
+      VAULT_HSM_LIB: /usr/lib/softhsm/libsofthsm2.so
+    env_file: vault.env
+    command: /bin/entrypoint.sh /usr/local/bin/vault server -config=/config/vault.config -log-level=trace -dev -dev-leased-kv -dev-root-token-id=root -dev-listen-address=0.0.0.0:8200
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        - VAULT_VERSION:1.3.0
+    volumes:
+      - ./entrypoint.sh:/bin/entrypoint.sh
+      - ./vault_hsm.config:/config/vault.config
+    ports:
+      - 8200:8200
