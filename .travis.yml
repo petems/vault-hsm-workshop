@@ -14,7 +14,7 @@ before_install:
 
 script:
   - cd docker/
-  - docker-compose build
+  - docker-compose build --build-arg="$VAULT_VERSION"
   - docker-compose up -d
-  - VAULT_ADDR=http://127.0.0.1:8200 VAULT_TOKEN=root vault status
-  - docker-compose logs | grep "HSM Manufacturer ID: SoftHSM"
+  - "docker-compose logs | grep HSM Manufacturer ID: SoftHSM"
+  - VAULT_ADDR=http://127.0.0.1:8200 VAULT_TOKEN=root vault status | grep ${VAULT_VERSION}
