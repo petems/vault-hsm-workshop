@@ -78,3 +78,5 @@ WantedBy=multi-user.target
 EOF
 
 sudo chmod 0644 /etc/systemd/system/vault.service
+
+sudo systemctl --now enable vault
