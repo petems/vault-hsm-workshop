@@ -31,6 +31,8 @@ mkdir -p /etc/vault/
 VAULT_HSM_SLOT=$(softhsm2-util --show-slots | grep "^Slot " | head -1 | cut -d " " -f 2)
 
 sudo cat << EOF > /etc/vault/config.hcl
+ui = true
+
 listener "tcp" {
   address = "127.0.0.1:8200"
   tls_disable = "true"
