@@ -7,17 +7,16 @@ Pre-requisites:
 
 ## Background
 
-We are going to setup SoftHSM and the HSM configuration for Vault.
+We're going to configure Vault to pull entropy from the HSM rather than use the system entropy. 
 
-Since HSM hardware is expensive and tricky to setup we're using SoftHSM for the purposes of a demo: It emulates the behaviour of a hardware HSM, including communication via PKCS 11 and slot assignment.
+While the system entropy used by Vault is more than capable of operating in most threat models, there are some situations where additional entropy from hardware-based random number generators is desirable. For example, NIST SP800-90B is required or when augmented entropy from external sources such as hardware true random number generators (TRNGs) or quantum computing TRNGs are desirable.
 
-We'll then show the main usecase for HSM support: Auto-unsealing. This is the process where Vault protects its master key and transits it through the HSM for encryption rather than splitting into key shares.
+We're going to use a Vault setup that already has the HSM configured and installed from the Vagrant provison.
 
 ## Pre-recorded
 
 ```
-ttyplay DEMO_01_Vagrant_and_Setup.rec
-ttyplay DEMO_01_Autounseal.rec
+ttyplay DEMO_02_Entropy_Augmentation.rec
 ```
 
 ## 1 - Build the Docker image

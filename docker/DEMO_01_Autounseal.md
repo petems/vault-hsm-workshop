@@ -16,7 +16,6 @@ We'll then show the main usecase for HSM support: Auto-unsealing. This is the pr
 ## Pre-recorded
 
 ```
-ttyplay DEMO_01_Vagrant_and_Setup.rec
 ttyplay DEMO_01_Autounseal.rec
 ```
 

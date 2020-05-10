@@ -7,17 +7,12 @@ Pre-requisites:
 
 ## Background
 
-We are going to setup SoftHSM and the HSM configuration for Vault.
-
-Since HSM hardware is expensive and tricky to setup we're using SoftHSM for the purposes of a demo: It emulates the behaviour of a hardware HSM, including communication via PKCS 11 and slot assignment.
-
-We'll then show the main usecase for HSM support: Auto-unsealing. This is the process where Vault protects its master key and transits it through the HSM for encryption rather than splitting into key shares.
+Seal-wrapping is the ability to wrap secrets with an extra layer of encryption leveraging the HSM. This adds an extra layer of protection and is useful in some compliance and regulatory environments, including FIPS 140-2 environments.
 
 ## Pre-recorded
 
 ```
-ttyplay DEMO_01_Vagrant_and_Setup.rec
-ttyplay DEMO_01_Autounseal.rec
+ttyplay DEMO_03_Seal_Wrap.rec
 ```
 
 ## 1 - Build the Docker image
@@ -81,36 +76,51 @@ $ docker-compose -f docker-compose-file.yml up -d
 ```
 $ export VAULT_ADDR="http://127.0.0.1:8200"
 $ export VAULT_SKIP_VERIFY=true
-$ export VAULT_TOKEN=root
+$ export VAULT_TOKEN=$(vault operator init -recovery-shares=1 -recovery-threshold=1 | grep "Initial Root Token" | sed 's/Initial Root Token: //')
 ```
 
-## 5 - Initialize
+## 4 - Enable two KV endpoints: One wrapped, one unwrapped
 
 ```
-$ vault secrets enable -external-entropy-access transit
+$ vault secrets enable -path=kv-unwrapped kv
+$ vault secrets enable -path=kv-seal-wrapped -seal-wrap kv
 $ vault secrets list -detailed
 ```
 
-## 5 - Create a new encryption key
+## 3 - Create new secrets on the two end-points
 
 ```
-$ vault write -f transit/keys/orders
+$ vault kv put kv-unwrapped/unwrapped password="my-long-password"
+$ vault kv put kv-seal-wrapped/wrapped password="my-long-password"
+$ vault kv get kv-unwrapped/unwrapped
+$ vault kv get kv-seal-wrapped/wrapped
 ```
 
-## 6 - Encrypt a value
+## 4 - Exec onto the docker container and observe the file paths for the secrets
 
 ```
-$ vault write transit/encrypt/orders plaintext=$(base64 <<< "4111 1111 1111 1111")
+$ bash -c "clear && docker exec -it docker_vault_1 bash"
+$ cd /vault/file/logical
+$ apt install tree
+$ tree
+.
+|-- 3407f07d-7cfc-e9f5-7346-625894316c65
+|   `-- _casesensitivity
+|-- 79e096e0-d5e9-f154-c5b8-6dc97fa1ff31
+|   `-- _unwrapped
+`-- 99a2319a-0c98-ef9c-9d4d-fb8f28e426ab
+    `-- _wrapped
+
+3 directories, 3 files
 ```
 
-## 7 - Decrypt that value
+## 5 - View the secret wrapped
 
 ```
-$ vault write transit/decrypt/orders ciphertext="vault:v1:AY3ZF2bwGfwZ9dJLSztCLdpPUHkfl/kwaQeRITvKgn74bGYyMI+n34w1CMO8aeg="
+$ cat 79e096e0-d5e9-f154-c5b8-6dc97fa1ff31/_unwrapped
+{"Value":"AAAAAQIgQzumZHoK9+buC1rSMGL7zVY+Yq+Ycx799IlS1CTrq9HvefFVQH/pR6XsxLc4gcYzUiHJAGq7mLWR6g=="}
+cat 99a2319a-0c98-ef9c-9d4d-fb8f28e426ab/_wrapped
+{"Value":"ClDHkr/MtUCW96PAS08Xn5YIKz13e18TRA2tkSw0LXxd3tzUcaDZbTNPu9ECWcvL7L5/ax1x0vFsZglWzevWAWc375j5T+TV+MgiIqTJOZvEXxIQq2Ius85J9gZz8SpYsZr5eRogqfL4RyvQFcFJ7n12otYoE/FRUPMUfIn5T6gBIiWc4/QgASoVCIUhENEEGgNrZXkiCGhtYWMta2V5cw=="}
 ```
 
-## 8 - Decode back to base64
-
-```
-$ base64 --decode <<< Y3JlZGl0LWNhcmQtbnVtYmVyCg==
-```
+You'll notice that even though the length of the original secret is the same, the wrapped secret has additional length as it's seal-wrapped and has been encrypted a second time.
