@@ -23,6 +23,14 @@ RUN cp /tmp/vault /usr/local/bin/vault
 
 RUN chmod u+x /usr/local/bin/vault
 
-EXPOSE 8200
+RUN /usr/sbin/groupadd --force --system vault
+
+RUN /usr/sbin/adduser --system --no-create-home --shell /bin/false vault
+
+RUN mkdir -p /home/vault/data
+
+RUN chown -R vault:vault /home/vault/data
+
+EXPOSE 8200:8200
 
 CMD ["vault version"]
