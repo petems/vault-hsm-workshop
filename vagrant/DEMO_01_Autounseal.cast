@@ -1,0 +1,1702 @@
+{
+	"version": 1,
+	"width": 80,
+	"height": 24,
+	"command": null,
+	"title": null,
+	"stdout": [
+		[
+			0.000000,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                 \r \r"
+		],
+		[
+			0.000632,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP vagrant % "
+		],
+		[
+			0.000015,
+			"\u001b[K"
+		],
+		[
+			0.000047,
+			"\u001b[?2004h"
+		],
+		[
+			1.960935,
+			"v"
+		],
+		[
+			0.214598,
+			"\bva"
+		],
+		[
+			0.187268,
+			"g"
+		],
+		[
+			0.163304,
+			"r"
+		],
+		[
+			0.080012,
+			"a"
+		],
+		[
+			0.172729,
+			"n"
+		],
+		[
+			0.096338,
+			"t"
+		],
+		[
+			0.059549,
+			" "
+		],
+		[
+			0.168806,
+			"s"
+		],
+		[
+			0.156745,
+			"s"
+		],
+		[
+			0.084186,
+			"h"
+		],
+		[
+			0.310418,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			2.197064,
+			"Linux debian-9 4.9.0-12-amd64 #1 SMP Debian 4.9.210-1 (2020-01-20) x86_64"
+		],
+		[
+			0.000083,
+			"\r\n\r\nThis system is built by the Bento project by Chef Software"
+		],
+		[
+			0.000155,
+			"\r\n"
+		],
+		[
+			0.000117,
+			"More information can be found at https://github.com/chef/bento"
+		],
+		[
+			0.000175,
+			"\r\n"
+		],
+		[
+			0.000295,
+			"\r\n"
+		],
+		[
+			0.000255,
+			"The programs included with the Debian GNU/Linux system are free software;"
+		],
+		[
+			0.000151,
+			"\r\n"
+		],
+		[
+			0.000056,
+			"the exact distribution terms for each program are described in the"
+		],
+		[
+			0.000526,
+			"\r\n"
+		],
+		[
+			0.000185,
+			"individual files in /usr/share/doc/*/copyright."
+		],
+		[
+			0.000141,
+			"\r\n"
+		],
+		[
+			0.000188,
+			"\r\n"
+		],
+		[
+			0.000320,
+			"Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent"
+		],
+		[
+			0.000137,
+			"\r\n"
+		],
+		[
+			0.000180,
+			"permitted by applicable law."
+		],
+		[
+			0.000113,
+			"\r\n"
+		],
+		[
+			0.033280,
+			"\u001b]0;vagrant@debian-9: ~\u0007\u001b[01;32mvagrant@debian-9\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+		],
+		[
+			0.951658,
+			"s"
+		],
+		[
+			0.140178,
+			"u"
+		],
+		[
+			0.128609,
+			"d"
+		],
+		[
+			0.091921,
+			"o"
+		],
+		[
+			0.116068,
+			" "
+		],
+		[
+			0.124346,
+			"-"
+		],
+		[
+			0.115642,
+			"s"
+		],
+		[
+			0.153394,
+			"\r\n"
+		],
+		[
+			0.005380,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			0.392043,
+			"c"
+		],
+		[
+			0.185386,
+			"l"
+		],
+		[
+			0.111964,
+			"e"
+		],
+		[
+			0.080474,
+			"a"
+		],
+		[
+			0.044260,
+			"r"
+		],
+		[
+			0.159444,
+			"\r\n"
+		],
+		[
+			0.001747,
+			"\u001b[3J\u001b[H\u001b[2J"
+		],
+		[
+			0.000290,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			6.710569,
+			"export VAULT_ADDR=\"http://127.0.0.1:8200\""
+		],
+		[
+			0.339603,
+			"\r\nroot@debian-9:/home/vagrant# "
+		],
+		[
+			2.772299,
+			"export VAULT_SKIP_VERIFY=true"
+		],
+		[
+			0.207679,
+			"\r\nroot@debian-9:/home/vagrant# "
+		],
+		[
+			2.520463,
+			"systemctl start vault "
+		],
+		[
+			0.232391,
+			"\r\n"
+		],
+		[
+			0.004207,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			4.810099,
+			"s"
+		],
+		[
+			0.198574,
+			"y"
+		],
+		[
+			0.096869,
+			"s"
+		],
+		[
+			0.202407,
+			"\u0007"
+		],
+		[
+			0.363569,
+			"t"
+		],
+		[
+			0.115167,
+			"\u0007"
+		],
+		[
+			0.000062,
+			"em"
+		],
+		[
+			0.527651,
+			"c"
+		],
+		[
+			0.120365,
+			"tl "
+		],
+		[
+			3.080491,
+			"s"
+		],
+		[
+			0.234513,
+			"t"
+		],
+		[
+			0.154284,
+			"a"
+		],
+		[
+			0.023715,
+			"t"
+		],
+		[
+			0.161186,
+			"u"
+		],
+		[
+			0.299718,
+			"s"
+		],
+		[
+			0.020807,
+			" "
+		],
+		[
+			0.364638,
+			"v"
+		],
+		[
+			0.076945,
+			"a"
+		],
+		[
+			0.094834,
+			"u"
+		],
+		[
+			0.212314,
+			"l"
+		],
+		[
+			0.083489,
+			"t"
+		],
+		[
+			0.176630,
+			"\r\n"
+		],
+		[
+			0.006370,
+			"\u001b[?1h\u001b=\r"
+		],
+		[
+			0.000227,
+			"\u001b[0;1;32m●\u001b[0m vault.service - vault agent\u001b[m"
+		],
+		[
+			0.000096,
+			"\r\n"
+		],
+		[
+			0.000124,
+			"   Loaded: loaded (/etc/systemd/system/vault.service; enabled; vendor preset: enabled)\u001b[m"
+		],
+		[
+			0.000094,
+			"\r\n"
+		],
+		[
+			0.000122,
+			"  Drop-In: /etc/systemd/system/vault.service.d\u001b[m"
+		],
+		[
+			0.000096,
+			"\r\n"
+		],
+		[
+			0.000112,
+			"           └─10-hsm.conf\u001b[m"
+		],
+		[
+			0.000105,
+			"\r\n"
+		],
+		[
+			0.000084,
+			"   Active: \u001b[0;1;32mactive (running)\u001b[0m since Sun 2020-05-10 13:15:21 UTC; 4min 32s ago\u001b[m"
+		],
+		[
+			0.000096,
+			"\r\n"
+		],
+		[
+			0.000081,
+			" Main PID: 1898 (vault)\u001b[m"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000089,
+			"    Tasks: 8 (limit: 4915)\u001b[m"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.000101,
+			"   CGroup: /system.slice/vault.service\u001b[m"
+		],
+		[
+			0.000077,
+			"\r\n"
+		],
+		[
+			0.000101,
+			"           └─1898 /usr/local/bin/vault server -config /etc/vault/config.hcl\u001b[m"
+		],
+		[
+			0.000070,
+			"\r\n"
+		],
+		[
+			0.000104,
+			"\u001b[m"
+		],
+		[
+			0.000066,
+			"\r\n"
+		],
+		[
+			0.000126,
+			"May 10 13:19:31 debian-9 vault[1898]: 2020-05-10T13:19:31.701Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000096,
+			"May 10 13:19:31 debian-9 vault[1898]: 2020-05-10T13:19:31.701Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"May 10 13:19:36 debian-9 vault[1898]: 2020-05-10T13:19:36.703Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m"
+		],
+		[
+			0.000095,
+			"\r\n"
+		],
+		[
+			0.000107,
+			"May 10 13:19:36 debian-9 vault[1898]: 2020-05-10T13:19:36.703Z [WARN]  failed to unseal core: error=\"stored unse"
+		],
+		[
+			0.000189,
+			"al keys are supported, but none were found\"\u001b[m"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000085,
+			"May 10 13:19:41 debian-9 vault[1898]: 2020-05-10T13:19:41.704Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m"
+		],
+		[
+			0.000088,
+			"\r\n"
+		],
+		[
+			0.000103,
+			"May 10 13:19:41 debian-9 vault[1898]: 2020-05-10T13:19:41.704Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m"
+		],
+		[
+			0.000077,
+			"\r\n"
+		],
+		[
+			0.000084,
+			"May 10 13:19:46 debian-9 vault[1898]: 2020-05-10T13:19:46.705Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m"
+		],
+		[
+			0.000072,
+			"\r\n"
+		],
+		[
+			0.000082,
+			"May 10 13:19:46 debian-9 vault[1898]: 2020-05-10T13:19:46.705Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m"
+		],
+		[
+			0.000083,
+			"\r\n"
+		],
+		[
+			0.000093,
+			"May 10 13:19:51 debian-9 vault[1898]: 2020-05-10T13:19:51.706Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m"
+		],
+		[
+			0.000093,
+			"\r\n"
+		],
+		[
+			0.000094,
+			"May 10 13:19:51 debian-9 vault[1898]: 2020-05-10T13:19:51.706Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m"
+		],
+		[
+			0.000071,
+			"\r\n"
+		],
+		[
+			0.000100,
+			"\r\u001b[K\u001b[?1l\u001b>"
+		],
+		[
+			0.000428,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			6.993190,
+			"vault operator init -recovery-shares=1 -recovery-threshold=1"
+		],
+		[
+			0.549571,
+			"\r\n"
+		],
+		[
+			0.091998,
+			"\u001b[0mRecovery Key 1: iYG9T/VUsX9GCJBEnIcy/ptSJFAMmbvd3ZF9QKKcwGk=\u001b[0m\r\n\u001b[0m\u001b[0m\r\n\u001b[0mInitial Root Token: s.ajfgqZrMSYlfweEYRaXBmhmd\u001b[0m\r\n\u001b[0m\u001b[0m\r\n\u001b[0mSuccess! Vault is initialized\u001b[0m\r\n\u001b[0m\u001b[0m\r\n\u001b[0mRecovery key initialized with 1 key shares and a key threshold of 1. Please\r\nsecurely distribute the key shares printed above.\u001b[0m\r\n"
+		],
+		[
+			0.001020,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			3.197063,
+			"vault operator init -recovery-shares=1 -recovery-threshold=1"
+		],
+		[
+			0.136027,
+			"\r\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[38Psystemctl status vault"
+		],
+		[
+			0.551166,
+			"\r\n"
+		],
+		[
+			0.005047,
+			"\u001b[?1h\u001b=\r"
+		],
+		[
+			0.000217,
+			"\u001b[0;1;32m●\u001b[0m vault.service - vault agent\u001b[m"
+		],
+		[
+			0.000109,
+			"\r\n"
+		],
+		[
+			0.000119,
+			"   Loaded: loaded (/etc/systemd/system/vault.service; enabled; vendor preset: enabled)\u001b[m"
+		],
+		[
+			0.000125,
+			"\r\n"
+		],
+		[
+			0.000073,
+			"  Drop-In: /etc/systemd/system/vault.service.d\u001b[m"
+		],
+		[
+			0.000212,
+			"\r\n"
+		],
+		[
+			0.000162,
+			"           └─10-hsm.conf\u001b[m"
+		],
+		[
+			0.000051,
+			"\r\n"
+		],
+		[
+			0.000067,
+			"   Active: \u001b[0;1;32mactive (running)\u001b[0m since Sun 2020-05-10 13:15:21 UTC; 4min 44s ago\u001b[m"
+		],
+		[
+			0.000171,
+			"\r\n"
+		],
+		[
+			0.000093,
+			" Main PID: 1898 (vault)\u001b[m"
+		],
+		[
+			0.000118,
+			"\r\n"
+		],
+		[
+			0.000065,
+			"    Tasks: 8 (limit: 4915)\u001b[m"
+		],
+		[
+			0.000094,
+			"\r\n"
+		],
+		[
+			0.000085,
+			"   CGroup: /system.slice/vault.service\u001b[m"
+		],
+		[
+			0.000117,
+			"\r\n"
+		],
+		[
+			0.000079,
+			"           └─1898 /usr/local/bin/vault server -config /etc/vault/config.hcl\u001b[m"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000088,
+			"\u001b[m"
+		],
+		[
+			0.000075,
+			"\r\n"
+		],
+		[
+			0.000106,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000070,
+			"\r\n"
+		],
+		[
+			0.000095,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000077,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000083,
+			"\r\n"
+		],
+		[
+			0.000084,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000079,
+			"\r\n"
+		],
+		[
+			0.000070,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm"
+		],
+		[
+			0.000174,
+			".cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000068,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000086,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.000090,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000077,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000082,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m"
+		],
+		[
+			0.000106,
+			"\r\n\r\u001b[K\u001b[?1l\u001b>"
+		],
+		[
+			0.000424,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			8.760062,
+			"systemctl restart vault"
+		],
+		[
+			0.372429,
+			"\r\n"
+		],
+		[
+			0.511189,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			4.489341,
+			"journalctl -u vault.service"
+		],
+		[
+			0.248218,
+			"\r\n"
+		],
+		[
+			0.007162,
+			"\u001b[?1h\u001b=\r"
+		],
+		[
+			0.000269,
+			"-- Logs begin at Sun 2020-05-10 13:14:49 UTC, end at Sun 2020-05-10 13:20:15 UTC. --\u001b[m"
+		],
+		[
+			0.000126,
+			"\r\n"
+		],
+		[
+			0.000074,
+			"May 10 13:15:21 debian-9 systemd[1]: Started vault agent.\u001b[m"
+		],
+		[
+			0.000221,
+			"\r\n"
+		],
+		[
+			0.000108,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(65): Opened existing object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/token.object\u001b[m\r\n"
+		],
+		[
+			0.000069,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(311): Object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/token.object has changed\u001b[m"
+		],
+		[
+			0.000089,
+			"\r\n"
+		],
+		[
+			0.000150,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(64): Opened token /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66\u001b[m\r\n"
+		],
+		[
+			0.000099,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(593): Token /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66 has changed\u001b[m"
+		],
+		[
+			0.000097,
+			"\r\n"
+		],
+		[
+			0.000077,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file token.lock\u001b[m"
+		],
+		[
+			0.000065,
+			"\r\n"
+		],
+		[
+			0.000129,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file token.object\u001b[m"
+		],
+		[
+			0.000106,
+			"\r\n"
+		],
+		[
+			0.000061,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file generation\u001b[m"
+		],
+		[
+			0.000069,
+			"\r\n"
+		],
+		[
+			0.000094,
+			"May 10 13:15:21 debian-9 vault[1898]"
+		],
+		[
+			0.000211,
+			": OSToken.cpp(649): 0 objects were added and 0 objects were removed\u001b[m"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000094,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(650): Current directory set contains 0 objects\u001b[m"
+		],
+		[
+			0.000099,
+			"\r\n"
+		],
+		[
+			0.000079,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(705): The token now contains 0 objects\u001b[m"
+		],
+		[
+			0.000092,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000139,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m"
+		],
+		[
+			0.000094,
+			"\r\n"
+		],
+		[
+			0.000118,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(71): Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/4042e278-bc93-8c70-9792\u001b[m"
+		],
+		[
+			0.000094,
+			"\r\n"
+		],
+		[
+			0.000111,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(363): (0x1C019820) Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/4042e278-bc9\u001b[m"
+		],
+		[
+			0.000088,
+			"\r\n"
+		],
+		[
+			0.000092,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000098,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): D"
+		],
+		[
+			0.000221,
+			"ecrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.003423,
+			"\r\n"
+		],
+		[
+			0.000098,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000060,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m"
+		],
+		[
+			0.000099,
+			"\r\n"
+		],
+		[
+			0.000075,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000090,
+			"\r\n"
+		],
+		[
+			0.000081,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000083,
+			"\r\n"
+		],
+		[
+			0.000088,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(71): Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/9e876725-8c34-6a5d-8485\u001b[m"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000259,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(363): (0x1C019820) Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/9e876725-8c3\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000086,
+			"\r\n"
+		],
+		[
+			0.000072,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000204,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: ==> Vault server configuration:\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM PKCS#11 Version: 2.30\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:              HSM Library: Implementation of PKCS11\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM Library Version: 2.2\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM Manufacturer ID: SoftHSM\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:                 HSM Type: pkcs11\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:                      Cgo: enabled\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:               Listener 1: tcp (addr: \"0.0.0.0:8200\", cluster address: \"0.0.0.0:8201\", max_request_duration: \"1m30s\", max_req\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:                Log Level: info\u001b[m"
+		],
+		[
+			0.000099,
+			"\r\n\u001b[7mlines 1-37\u001b[27m\u001b[K"
+		],
+		[
+			2.028308,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]:                    Mlock: supported: true, enabled: true\u001b[m\r\n\u001b[7mlines 2-38\u001b[27m\u001b[K"
+		],
+		[
+			0.500691,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]:            Recovery Mode: false\u001b[m\r\n\u001b[7mlines 3-39\u001b[27m\u001b[K"
+		],
+		[
+			0.083837,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]:                  Storage: file\u001b[m\r\n\u001b[7mlines 4-40\u001b[27m\u001b[K"
+		],
+		[
+			0.083594,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]:                  Version: Vault v1.3.0+ent.hsm\u001b[m\r\n\u001b[7mlines 5-41\u001b[27m\u001b[K"
+		],
+		[
+			0.083487,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]: ==> Vault server started! Log data will stream in below:\u001b[m\r\n\u001b[7mlines 6-42\u001b[27m\u001b[K"
+		],
+		[
+			0.084246,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]: 2020-05-10T13:15:21.553Z [INFO]  proxy environment: http_proxy= https_proxy= no_proxy=\u001b[m\r\n\u001b[7mlines 7-43\u001b[27m\u001b[K"
+		],
+		[
+			0.083839,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]: 2020-05-10T13:15:21.571Z [WARN]  no `api_addr` value specified in config or in VAULT_API_ADDR; falling back to detection if \u001b[m\r\n\u001b[7mlines 8-44\u001b[27m\u001b[K"
+		],
+		[
+			0.083698,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]: 2020-05-10T13:15:21.648Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 9-45\u001b[27m\u001b[K"
+		],
+		[
+			0.084187,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:21 debian-9 vault[1898]: 2020-05-10T13:15:21.648Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 10-46\u001b[27m\u001b[K"
+		],
+		[
+			0.083279,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:26 debian-9 vault[1898]: 2020-05-10T13:15:26.648Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 11-47\u001b[27m\u001b[K"
+		],
+		[
+			0.084020,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:26 debian-9 vault[1898]: 2020-05-10T13:15:26.648Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 12-48\u001b[27m\u001b[K"
+		],
+		[
+			0.083111,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:31 debian-9 vault[1898]: 2020-05-10T13:15:31.650Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 13-49\u001b[27m\u001b[K"
+		],
+		[
+			0.083562,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:31 debian-9 vault[1898]: 2020-05-10T13:15:31.650Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 14-50\u001b[27m\u001b[K"
+		],
+		[
+			0.083243,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:36 debian-9 vault[1898]: 2020-05-10T13:15:36.650Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 15-51\u001b[27m\u001b[K"
+		],
+		[
+			0.084990,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:36 debian-9 vault[1898]: 2020-05-10T13:15:36.650Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 16-52\u001b[27m\u001b[K"
+		],
+		[
+			0.084648,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:41 debian-9 vault[1898]: 2020-05-10T13:15:41.651Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 17-53\u001b[27m\u001b[K"
+		],
+		[
+			0.083232,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:41 debian-9 vault[1898]: 2020-05-10T13:15:41.651Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 18-54\u001b[27m\u001b[K"
+		],
+		[
+			0.082655,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:46 debian-9 vault[1898]: 2020-05-10T13:15:46.652Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 19-55\u001b[27m\u001b[K"
+		],
+		[
+			0.084126,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:46 debian-9 vault[1898]: 2020-05-10T13:15:46.652Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 20-56\u001b[27m\u001b[K"
+		],
+		[
+			0.082749,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:51 debian-9 vault[1898]: 2020-05-10T13:15:51.654Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 21-57\u001b[27m\u001b[K"
+		],
+		[
+			0.084450,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:51 debian-9 vault[1898]: 2020-05-10T13:15:51.654Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 22-58\u001b[27m\u001b[K"
+		],
+		[
+			0.084169,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:56 debian-9 vault[1898]: 2020-05-10T13:15:56.655Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 23-59\u001b[27m\u001b[K"
+		],
+		[
+			0.084282,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:15:56 debian-9 vault[1898]: 2020-05-10T13:15:56.655Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 24-60\u001b[27m\u001b[K"
+		],
+		[
+			0.083969,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:01 debian-9 vault[1898]: 2020-05-10T13:16:01.657Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 25-61\u001b[27m\u001b[K"
+		],
+		[
+			0.084079,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:01 debian-9 vault[1898]: 2020-05-10T13:16:01.657Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 26-62\u001b[27m\u001b[K"
+		],
+		[
+			0.082734,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:06 debian-9 vault[1898]: 2020-05-10T13:16:06.657Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 27-63\u001b[27m\u001b[K"
+		],
+		[
+			0.085228,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:06 debian-9 vault[1898]: 2020-05-10T13:16:06.657Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 28-64\u001b[27m\u001b[K"
+		],
+		[
+			0.082552,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:11 debian-9 vault[1898]: 2020-05-10T13:16:11.659Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 29-65\u001b[27m\u001b[K"
+		],
+		[
+			0.403950,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:11 debian-9 vault[1898]: 2020-05-10T13:16:11.659Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 30-66\u001b[27m\u001b[K"
+		],
+		[
+			0.500613,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:16 debian-9 vault[1898]: 2020-05-10T13:16:16.660Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 31-67\u001b[27m\u001b[K"
+		],
+		[
+			0.085311,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:16 debian-9 vault[1898]: 2020-05-10T13:16:16.660Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 32-68\u001b[27m\u001b[K"
+		],
+		[
+			0.080991,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:21 debian-9 vault[1898]: 2020-05-10T13:16:21.572Z [WARN]  core.licensing: core: licensing warning: expiration_time=\"2020-05-10 13:45:22 +0000 UTC\" ti\u001b[m\r\n\u001b[7mlines 33-69\u001b[27m\u001b[K"
+		],
+		[
+			0.083987,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:21 debian-9 vault[1898]: 2020-05-10T13:16:21.662Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 34-70\u001b[27m\u001b[K"
+		],
+		[
+			0.083557,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:21 debian-9 vault[1898]: 2020-05-10T13:16:21.662Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 35-71\u001b[27m\u001b[K"
+		],
+		[
+			0.083016,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:26 debian-9 vault[1898]: 2020-05-10T13:16:26.662Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 36-72\u001b[27m\u001b[K"
+		],
+		[
+			0.084395,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:26 debian-9 vault[1898]: 2020-05-10T13:16:26.662Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 37-73\u001b[27m\u001b[K"
+		],
+		[
+			0.083114,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:31 debian-9 vault[1898]: 2020-05-10T13:16:31.663Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 38-74\u001b[27m\u001b[K"
+		],
+		[
+			0.084174,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:31 debian-9 vault[1898]: 2020-05-10T13:16:31.663Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 39-75\u001b[27m\u001b[K"
+		],
+		[
+			0.084408,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:36 debian-9 vault[1898]: 2020-05-10T13:16:36.665Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 40-76\u001b[27m\u001b[K"
+		],
+		[
+			0.083661,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:36 debian-9 vault[1898]: 2020-05-10T13:16:36.665Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 41-77\u001b[27m\u001b[K"
+		],
+		[
+			0.083449,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:41 debian-9 vault[1898]: 2020-05-10T13:16:41.665Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 42-78\u001b[27m\u001b[K"
+		],
+		[
+			0.083776,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:41 debian-9 vault[1898]: 2020-05-10T13:16:41.665Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 43-79\u001b[27m\u001b[K"
+		],
+		[
+			0.082764,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:46 debian-9 vault[1898]: 2020-05-10T13:16:46.667Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 44-80\u001b[27m\u001b[K"
+		],
+		[
+			0.083386,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:46 debian-9 vault[1898]: 2020-05-10T13:16:46.667Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 45-81\u001b[27m\u001b[K"
+		],
+		[
+			0.084115,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:51 debian-9 vault[1898]: 2020-05-10T13:16:51.667Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 46-82\u001b[27m\u001b[K"
+		],
+		[
+			0.083862,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:51 debian-9 vault[1898]: 2020-05-10T13:16:51.667Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 47-83\u001b[27m\u001b[K"
+		],
+		[
+			0.085091,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:56 debian-9 vault[1898]: 2020-05-10T13:16:56.668Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 48-84\u001b[27m\u001b[K"
+		],
+		[
+			0.083262,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:16:56 debian-9 vault[1898]: 2020-05-10T13:16:56.668Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 49-85\u001b[27m\u001b[K"
+		],
+		[
+			0.084952,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:01 debian-9 vault[1898]: 2020-05-10T13:17:01.668Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 50-86\u001b[27m\u001b[K"
+		],
+		[
+			0.082306,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:01 debian-9 vault[1898]: 2020-05-10T13:17:01.668Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 51-87\u001b[27m\u001b[K"
+		],
+		[
+			0.084301,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:06 debian-9 vault[1898]: 2020-05-10T13:17:06.670Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 52-88\u001b[27m\u001b[K"
+		],
+		[
+			0.085104,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:06 debian-9 vault[1898]: 2020-05-10T13:17:06.670Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 53-89\u001b[27m\u001b[K"
+		],
+		[
+			0.082469,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:11 debian-9 vault[1898]: 2020-05-10T13:17:11.671Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 54-90\u001b[27m\u001b[K"
+		],
+		[
+			0.084912,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:11 debian-9 vault[1898]: 2020-05-10T13:17:11.671Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 55-91\u001b[27m\u001b[K"
+		],
+		[
+			0.083735,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:16 debian-9 vault[1898]: 2020-05-10T13:17:16.672Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 56-92\u001b[27m\u001b[K"
+		],
+		[
+			0.083980,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:16 debian-9 vault[1898]: 2020-05-10T13:17:16.672Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 57-93\u001b[27m\u001b[K"
+		],
+		[
+			0.083894,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:21 debian-9 vault[1898]: 2020-05-10T13:17:21.572Z [WARN]  core.licensing: core: licensing warning: expiration_time=\"2020-05-10 13:45:22 +0000 UTC\" ti\u001b[m\r\n\u001b[7mlines 58-94\u001b[27m\u001b[K"
+		],
+		[
+			0.083729,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:21 debian-9 vault[1898]: 2020-05-10T13:17:21.673Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 59-95\u001b[27m\u001b[K"
+		],
+		[
+			0.082647,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:21 debian-9 vault[1898]: 2020-05-10T13:17:21.673Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 60-96\u001b[27m\u001b[K"
+		],
+		[
+			0.086199,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:26 debian-9 vault[1898]: 2020-05-10T13:17:26.674Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 61-97\u001b[27m\u001b[K"
+		],
+		[
+			0.082982,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:26 debian-9 vault[1898]: 2020-05-10T13:17:26.674Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 62-98\u001b[27m\u001b[K"
+		],
+		[
+			0.084551,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:31 debian-9 vault[1898]: 2020-05-10T13:17:31.676Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 63-99\u001b[27m\u001b[K"
+		],
+		[
+			0.082707,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:31 debian-9 vault[1898]: 2020-05-10T13:17:31.676Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 64-100\u001b[27m\u001b[K"
+		],
+		[
+			0.084186,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:36 debian-9 vault[1898]: 2020-05-10T13:17:36.677Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 65-101\u001b[27m\u001b[K"
+		],
+		[
+			0.082798,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:36 debian-9 vault[1898]: 2020-05-10T13:17:36.677Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 66-102\u001b[27m\u001b[K"
+		],
+		[
+			0.084375,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:41 debian-9 vault[1898]: 2020-05-10T13:17:41.679Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 67-103\u001b[27m\u001b[K"
+		],
+		[
+			0.083640,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:41 debian-9 vault[1898]: 2020-05-10T13:17:41.679Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 68-104\u001b[27m\u001b[K"
+		],
+		[
+			0.084208,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:46 debian-9 vault[1898]: 2020-05-10T13:17:46.679Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 69-105\u001b[27m\u001b[K"
+		],
+		[
+			0.084020,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:46 debian-9 vault[1898]: 2020-05-10T13:17:46.679Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 70-106\u001b[27m\u001b[K"
+		],
+		[
+			0.084159,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:51 debian-9 vault[1898]: 2020-05-10T13:17:51.681Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 71-107\u001b[27m\u001b[K"
+		],
+		[
+			0.083717,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:51 debian-9 vault[1898]: 2020-05-10T13:17:51.681Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 72-108\u001b[27m\u001b[K"
+		],
+		[
+			0.084668,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:56 debian-9 vault[1898]: 2020-05-10T13:17:56.681Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 73-109\u001b[27m\u001b[K"
+		],
+		[
+			0.084000,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:17:56 debian-9 vault[1898]: 2020-05-10T13:17:56.682Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 74-110\u001b[27m\u001b[K"
+		],
+		[
+			0.085300,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:18:01 debian-9 vault[1898]: 2020-05-10T13:18:01.682Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 75-111\u001b[27m\u001b[K"
+		],
+		[
+			0.083351,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:18:01 debian-9 vault[1898]: 2020-05-10T13:18:01.682Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 76-112\u001b[27m\u001b[K"
+		],
+		[
+			0.082196,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:18:06 debian-9 vault[1898]: 2020-05-10T13:18:06.684Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\n\u001b[7mlines 77-113\u001b[27m\u001b[K"
+		],
+		[
+			0.100359,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[K[\b[\u001b[K6\b6\u001b[K~\b~\r\u001b[KMay 10 13:18:06 debian-9 vault[1898]: 2020-05-10T13:18:06.684Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:11 debian-9 vault[1898]: 2020-05-10T13:18:11.684Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:11 debian-9 vault[1898]: 2020-05-10T13:18:11.685Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:16 debian-9 vault[1898]: 2020-05-10T13:18:16.685Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:16 debian-9 vault[1898]: 2020-05-10T13:18:16.685Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:21 debian-9 vault[1898]: 2020-05-10T13:18:21.572Z [WARN]  core.licensing: core: licensing warning: expiration_time=\"2020-05-10 13:45:22 +0000 UTC\" ti\u001b[m\r\nMay 10 13:18:21 debian-9 vault[1898]: 2020-05-10T13:18:21.685Z [INFO]  core: store"
+		],
+		[
+			0.000066,
+			"d unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:21 debian-9 vault[1898]: 2020-05-10T13:18:21.685Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:26 debian-9 vault[1898]: 2020-05-10T13:18:26.687Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:26 debian-9 vault[1898]: 2020-05-10T13:18:26.687Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:31 debian-9 vault[1898]: 2020-05-10T13:18:31.688Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:31 debian-9 vault[1898]: 2020-05-10T13:18:31.688Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:36 debian-9 vault[1898]: 2020-05-10T13:18:36.689Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:36 debian-9 vault[1898]: 2020-05-10T13:18:36.689Z [WARN]  failed to unseal core: error=\"stored unseal"
+		],
+		[
+			0.000020,
+			" keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:41 debian-9 vault[1898]: 2020-05-10T13:18:41.690Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:41 debian-9 vault[1898]: 2020-05-10T13:18:41.690Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:46 debian-9 vault[1898]: 2020-05-10T13:18:46.692Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:46 debian-9 vault[1898]: 2020-05-10T13:18:46.692Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:51 debian-9 vault[1898]: 2020-05-10T13:18:51.693Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:18:51 debian-9 vault[1898]: 2020-05-10T13:18:51.693Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:18:56 debian-9 vault[1898]: 2020-05-10T13:18:56.694Z [INFO]  core: stored unseal keys supported, attempt"
+		],
+		[
+			0.000017,
+			"ing fetch\u001b[m\r\nMay 10 13:18:56 debian-9 vault[1898]: 2020-05-10T13:18:56.694Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:01 debian-9 vault[1898]: 2020-05-10T13:19:01.695Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:01 debian-9 vault[1898]: 2020-05-10T13:19:01.695Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:06 debian-9 vault[1898]: 2020-05-10T13:19:06.696Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:06 debian-9 vault[1898]: 2020-05-10T13:19:06.696Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:11 debian-9 vault[1898]: 2020-05-10T13:19:11.698Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:11 debian-9 vault[1898]: 2020-05-10T13:19:11.698Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none w"
+		],
+		[
+			0.000062,
+			"ere found\"\u001b[m\r\nMay 10 13:19:16 debian-9 vault[1898]: 2020-05-10T13:19:16.699Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:16 debian-9 vault[1898]: 2020-05-10T13:19:16.699Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:21 debian-9 vault[1898]: 2020-05-10T13:19:21.573Z [WARN]  core.licensing: core: licensing warning: expiration_time=\"2020-05-10 13:45:22 +0000 UTC\" ti\u001b[m\r\nMay 10 13:19:21 debian-9 vault[1898]: 2020-05-10T13:19:21.699Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:21 debian-9 vault[1898]: 2020-05-10T13:19:21.699Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:26 debian-9 vault[1898]: 2020-05-10T13:19:26.700Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:26 debian-9 vault[1898]: 2020-05-10T13:19:26.700Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but"
+		],
+		[
+			0.000032,
+			" none were found\"\u001b[m\r\nMay 10 13:19:31 debian-9 vault[1898]: 2020-05-10T13:19:31.701Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:31 debian-9 vault[1898]: 2020-05-10T13:19:31.701Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\n\u001b[7mlines 114-150\u001b[27m\u001b[K"
+		],
+		[
+			0.371760,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[K[\b[\u001b[K6\b6\u001b[K~\b~\r\u001b[KMay 10 13:19:36 debian-9 vault[1898]: 2020-05-10T13:19:36.703Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:36 debian-9 vault[1898]: 2020-05-10T13:19:36.703Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:41 debian-9 vault[1898]: 2020-05-10T13:19:41.704Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:41 debian-9 vault[1898]: 2020-05-10T13:19:41.704Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:46 debian-9 vault[1898]: 2020-05-10T13:19:46.705Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:46 debian-9 vault[1898]: 2020-05-10T13:19:46.705Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:51 debian-9 vault[1898]: 2020-05-10T13:19:51.706Z [INFO]  core: stored unseal keys supported, attempting fet"
+		],
+		[
+			0.000047,
+			"ch\u001b[m\r\nMay 10 13:19:51 debian-9 vault[1898]: 2020-05-10T13:19:51.706Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:19:56 debian-9 vault[1898]: 2020-05-10T13:19:56.708Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:19:56 debian-9 vault[1898]: 2020-05-10T13:19:56.708Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.708Z [INFO]  core: stored unseal keys supported, attempting fetch\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.708Z [WARN]  failed to unseal core: error=\"stored unseal keys are supported, but none were found\"\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.934Z [WARN]  core: stored keys supported on init, forcing shares/threshold to 1\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.934Z [INFO]  core: security barrier not initialized\u001b[m\r\nMay 10 13:20:01 debian-9 "
+		],
+		[
+			0.000013,
+			"vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 byt"
+		],
+		[
+			0.000086,
+			"es\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.939Z [INFO]  core: security barrier initialized: stored=1 shares=1 threshold=1\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.c"
+		],
+		[
+			0.000023,
+			"pp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: 2020-05-10T13:20:01.945Z [INFO]  core: post-unseal setup starting\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\n\u001b[7mlines 151-187\u001b[27m\u001b[K"
+		],
+		[
+			0.703357,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\n\u001b[7mlines 152-188\u001b[27m\u001b[K"
+		],
+		[
+			0.324674,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[KMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\n\u001b[7mlines 153-189\u001b[27m\u001b[K"
+		],
+		[
+			0.202478,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[K[\b[\u001b[K6\b6\u001b[K~\b~\r\u001b[KMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetr"
+		],
+		[
+			0.000035,
+			"icAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault["
+		],
+		[
+			0.000031,
+			"1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\n"
+		],
+		[
+			0.000017,
+			"May 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 240 bytes into buffer of 256 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 224 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt ret"
+		],
+		[
+			0.000061,
+			"urned 0 bytes of data\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:01 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\n\u001b[7mlines 190-226\u001b[27m\u001b[K"
+		],
+		[
+			0.508773,
+			"\r\u001b[K...skipping...\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 240 bytes into buffer of 256 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 224 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cp"
+		],
+		[
+			0.000061,
+			"p(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVP"
+		],
+		[
+			0.000032,
+			"SymmetricAlgorithm.cpp(295): Decrypting 544 bytes into buffer of 560 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 528 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:"
+		],
+		[
+			0.000023,
+			"20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes o"
+		],
+		[
+			0.000080,
+			"f data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\n\u001b[7mlines 597-633/633 (END)\u001b[27m\u001b[K"
+		],
+		[
+			0.515725,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 597-633/633 (END)\u001b[27m\u001b[K"
+		],
+		[
+			0.162053,
+			"\r\u001b[K \u001b[KESC\b\b\bESC\u001b[KO\bO\u001b[KB\bB\r\u001b[K\u0007\r\u001b[K\u001b[7mlines 597-633/633 (END)\u001b[27m\u001b[K"
+		],
+		[
+			1.671724,
+			"\r\u001b[K\u001b[?1l\u001b>root@debian-9:/home/vagrant# "
+		],
+		[
+			1.124692,
+			"journalctl -u vault.service"
+		],
+		[
+			0.255210,
+			"\r\n"
+		],
+		[
+			0.006948,
+			"\u001b[?1h\u001b=\r"
+		],
+		[
+			0.000254,
+			"-- Logs begin at Sun 2020-05-10 13:14:49 UTC, end at Sun 2020-05-10 13:20:15 UTC. --\u001b[m"
+		],
+		[
+			0.000096,
+			"\r\n"
+		],
+		[
+			0.000104,
+			"May 10 13:15:21 debian-9 systemd[1]: Started vault agent.\u001b[m"
+		],
+		[
+			0.000075,
+			"\r\n"
+		],
+		[
+			0.000128,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(65): Opened existing object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/token.object\u001b[m"
+		],
+		[
+			0.000090,
+			"\r\n"
+		],
+		[
+			0.000096,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(311): Object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/token.object has changed\u001b[m"
+		],
+		[
+			0.000088,
+			"\r\n"
+		],
+		[
+			0.000082,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(64): Opened token /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66\u001b[m"
+		],
+		[
+			0.000089,
+			"\r\n"
+		],
+		[
+			0.000093,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(593): Token /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66 has changed\u001b[m"
+		],
+		[
+			0.000085,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file token.lock\u001b[m"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file token.object\u001b[m"
+		],
+		[
+			0.000083,
+			"\r\n"
+		],
+		[
+			0.000087,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(611): Ignored file generation\u001b[m"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"May 10 13:15:21 debian-9 vault[1898]"
+		],
+		[
+			0.000223,
+			": OSToken.cpp(649): 0 objects were added and 0 objects were removed\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000102,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(650): Current directory set contains 0 objects\u001b[m"
+		],
+		[
+			0.000096,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(705): The token now contains 0 objects\u001b[m"
+		],
+		[
+			0.000083,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000100,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m"
+		],
+		[
+			0.000073,
+			"\r\n"
+		],
+		[
+			0.000111,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(71): Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/4042e278-bc93-8c70-9792\u001b[m"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(363): (0x1C019820) Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/4042e278-bc9\u001b[m"
+		],
+		[
+			0.000104,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000087,
+			"\r\n"
+		],
+		[
+			0.000082,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): D"
+		],
+		[
+			0.000211,
+			"ecrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.003507,
+			"\r\n"
+		],
+		[
+			0.000110,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m"
+		],
+		[
+			0.000075,
+			"\r\n"
+		],
+		[
+			0.000074,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m"
+		],
+		[
+			0.000107,
+			"\r\n"
+		],
+		[
+			0.000074,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000085,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000062,
+			"\r\n"
+		],
+		[
+			0.000084,
+			"May 10 13:15:21 debian-9 vault[1898]: ObjectFile.cpp(71): Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/9e876725-8c34-6a5d-8485\u001b[m"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000249,
+			"May 10 13:15:21 debian-9 vault[1898]: OSToken.cpp(363): (0x1C019820) Created new object /var/lib/softhsm/tokens//3d7e3748-ce04-1d93-3b73-df90ba6baa66/9e876725-8c3\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m"
+		],
+		[
+			0.000089,
+			"\r\n"
+		],
+		[
+			0.000066,
+			"May 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m"
+		],
+		[
+			0.000182,
+			"\r\nMay 10 13:15:21 debian-9 vault[1898]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]: ==> Vault server configuration:\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM PKCS#11 Version: 2.30\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:              HSM Library: Implementation of PKCS11\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM Library Version: 2.2\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:      HSM Manufacturer ID: SoftHSM\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:                 HSM Type: pkcs11\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:                      Cgo: enabled\u001b[m\r\nMay 10 13:15:21 debian-9 vault[1898]:               Listener 1: tcp (addr: \"0.0.0.0:8200\", cluster address: \"0.0.0.0:8201\", max_request_duration: \"1m30s\", max_req\u001b[m"
+		],
+		[
+			0.000136,
+			"\r\nMay 10 13:15:21 debian-9 vault[1898]:                Log Level: info\u001b[m"
+		],
+		[
+			0.000071,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"\u001b[7mlines 1-37\u001b[27m\u001b[K"
+		],
+		[
+			0.419597,
+			"\r\u001b[K"
+		],
+		[
+			0.001818,
+			"...skipping...\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 240 bytes into buffer of 256 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 224 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(31"
+		],
+		[
+			0.000045,
+			"0): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymm"
+		],
+		[
+			0.000025,
+			"etricAlgorithm.cpp(295): Decrypting 544 bytes into buffer of 560 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 528 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:1"
+		],
+		[
+			0.000044,
+			"5 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of data\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 16 bytes into buffer of 32 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 0 bytes of da"
+		],
+		[
+			0.000063,
+			"ta\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(295): Decrypting 48 bytes into buffer of 64 bytes\u001b[m\r\nMay 10 13:20:15 debian-9 vault[2029]: OSSLEVPSymmetricAlgorithm.cpp(310): Decrypt returned 32 bytes of data\u001b[m\r\n\u001b[7mlines 597-633/633 (END)\u001b[27m\u001b[K"
+		],
+		[
+			0.777758,
+			"\r\u001b[K\u001b[?1l\u001b>"
+		],
+		[
+			0.000626,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			2.800119,
+			"e"
+		],
+		[
+			0.236582,
+			"x"
+		],
+		[
+			0.091761,
+			"i"
+		],
+		[
+			0.003425,
+			"u"
+		],
+		[
+			0.159733,
+			"t"
+		],
+		[
+			0.337954,
+			"\b\u001b[K"
+		],
+		[
+			0.124881,
+			"\b\u001b[K"
+		],
+		[
+			0.133360,
+			"t"
+		],
+		[
+			0.649355,
+			"\r\nexit\r\n"
+		],
+		[
+			0.001419,
+			"\u001b]0;vagrant@debian-9: ~\u0007\u001b[01;32mvagrant@debian-9\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+		],
+		[
+			0.267221,
+			"e"
+		],
+		[
+			0.294459,
+			"x"
+		],
+		[
+			0.086807,
+			"i"
+		],
+		[
+			0.184650,
+			"t"
+		],
+		[
+			0.098273,
+			"\r\nlogout\r\n"
+		],
+		[
+			0.002505,
+			"Connection to 127.0.0.1 closed.\r\r\n"
+		],
+		[
+			0.001011,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                 \r \r"
+		],
+		[
+			0.000088,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP vagrant % \u001b[K\u001b[?2004h"
+		],
+		[
+			0.613390,
+			"e"
+		],
+		[
+			0.205185,
+			"\bex"
+		],
+		[
+			0.077734,
+			"i"
+		],
+		[
+			0.166961,
+			"t"
+		],
+		[
+			0.092494,
+			"\u001b[?2004l\r\r\n"
+		]
+	],
+	"duration": 82.088814
+}

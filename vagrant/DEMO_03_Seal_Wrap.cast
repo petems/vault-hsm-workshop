@@ -1,0 +1,1646 @@
+{
+	"version": 1,
+	"width": 80,
+	"height": 24,
+	"command": null,
+	"title": null,
+	"stdout": [
+		[
+			0.000000,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                 \r \r"
+		],
+		[
+			0.000582,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP vagrant % "
+		],
+		[
+			0.000019,
+			"\u001b[K"
+		],
+		[
+			0.000007,
+			"\u001b[?2004h"
+		],
+		[
+			1.322280,
+			"v"
+		],
+		[
+			0.141037,
+			"\bva"
+		],
+		[
+			0.143516,
+			"g"
+		],
+		[
+			0.229598,
+			"a"
+		],
+		[
+			0.135855,
+			"n"
+		],
+		[
+			0.091937,
+			"t"
+		],
+		[
+			0.184529,
+			"\b \b"
+		],
+		[
+			0.149408,
+			"\b \b"
+		],
+		[
+			0.114387,
+			"\b \b"
+		],
+		[
+			0.059389,
+			"r"
+		],
+		[
+			0.069096,
+			"a"
+		],
+		[
+			0.120297,
+			"n"
+		],
+		[
+			0.091212,
+			"t"
+		],
+		[
+			0.036264,
+			" "
+		],
+		[
+			0.178403,
+			"s"
+		],
+		[
+			0.159364,
+			"s"
+		],
+		[
+			0.044047,
+			"h"
+		],
+		[
+			0.217816,
+			"\u001b[?2004l"
+		],
+		[
+			0.000038,
+			"\r\r\n"
+		],
+		[
+			2.639765,
+			"Linux debian-9 4.9.0-12-amd64 #1 SMP Debian 4.9.210-1 (2020-01-20) x86_64"
+		],
+		[
+			0.000103,
+			"\r\n\r\nThis system is built by the Bento project by Chef Software"
+		],
+		[
+			0.000074,
+			"\r\n"
+		],
+		[
+			0.000257,
+			"More information can be found at https://github.com/chef/bento"
+		],
+		[
+			0.000048,
+			"\r\n"
+		],
+		[
+			0.000124,
+			"\r\n"
+		],
+		[
+			0.000032,
+			"The programs included with the Debian GNU/Linux system are free software;"
+		],
+		[
+			0.000102,
+			"\r\n"
+		],
+		[
+			0.000045,
+			"the exact distribution terms for each program are described in the"
+		],
+		[
+			0.000118,
+			"\r\n"
+		],
+		[
+			0.000095,
+			"individual files in /usr/share/doc/*/copyright."
+		],
+		[
+			0.000111,
+			"\r\n"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000024,
+			"Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent"
+		],
+		[
+			0.000100,
+			"\r\n"
+		],
+		[
+			0.000098,
+			"permitted by applicable law."
+		],
+		[
+			0.000111,
+			"\r\n"
+		],
+		[
+			0.040912,
+			"\u001b]0;vagrant@debian-9: ~\u0007\u001b[01;32mvagrant@debian-9\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+		],
+		[
+			8.582342,
+			"s"
+		],
+		[
+			0.093931,
+			"u"
+		],
+		[
+			0.132141,
+			"d"
+		],
+		[
+			0.094611,
+			"o"
+		],
+		[
+			0.143301,
+			" "
+		],
+		[
+			0.140227,
+			"-"
+		],
+		[
+			0.156196,
+			"s"
+		],
+		[
+			0.108174,
+			"\r\n"
+		],
+		[
+			0.005683,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			0.358163,
+			"export VAULT_ADDR=\"http://127.0.0.1:8200\""
+		],
+		[
+			0.354129,
+			"\r\n"
+		],
+		[
+			0.000210,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			4.501433,
+			"export VAULT_SKIP_VERIFY=true"
+		],
+		[
+			0.312622,
+			"\r\n"
+		],
+		[
+			0.000179,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			6.028105,
+			"systemctl start vault "
+		],
+		[
+			0.229612,
+			"\r\n"
+		],
+		[
+			0.003976,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			5.059262,
+			"vault operator init -recovery-shares=1 -recovery-threshold=1 > /root/init.txt 2>&1"
+		],
+		[
+			0.530928,
+			"\r\n"
+		],
+		[
+			0.107468,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			5.235968,
+			"export VAULT_TOKEN=`cat /root/init.txt | sed -n -e '/^Initial Root Token/ s/.*\\: *//p'` "
+		],
+		[
+			0.710668,
+			"\r\n"
+		],
+		[
+			0.002064,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			8.075423,
+			"vault secrets enable -path=kv-unwrapped kv"
+		],
+		[
+			0.291874,
+			"\r\n"
+		],
+		[
+			0.029700,
+			"\u001b[0mSuccess! Enabled the kv secrets engine at: kv-unwrapped/\u001b[0m\r\n"
+		],
+		[
+			0.000940,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			2.909403,
+			"vault secrets enable -path=kv-seal-wrapped -seal-wrap kv"
+		],
+		[
+			1.082029,
+			"\r\n"
+		],
+		[
+			0.025620,
+			"\u001b[0mSuccess! Enabled the kv secrets engine at: kv-seal-wrapped/\u001b[0m"
+		],
+		[
+			0.000048,
+			"\r\n"
+		],
+		[
+			0.000992,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			3.228525,
+			"vault secrets list -detailed"
+		],
+		[
+			1.589867,
+			"\r\n"
+		],
+		[
+			0.024671,
+			"\u001b[0mPath                Plugin       Accessor              Default TTL    Max TTL    Force No Cache    Replication    Seal Wrap    External Entropy Access    Options    Description                                                UUID"
+		],
+		[
+			0.000062,
+			"\r\n----                ------       --------              -----------    -------    --------------    -----------    ---------    -----------------------    -------    -----------                                                ----\r\ncubbyhole/          cubbyhole    cubbyhole_ed041d3f    n/a            n/a        false             local          false        false                      map[]      per-token private secret storage                           2cd0b09e-36c5-4173-d8d4-ecbfaff62226"
+		],
+		[
+			0.000372,
+			"\r\n"
+		],
+		[
+			0.000136,
+			"identity/           identity     identity_b844d9d6     system         system     false             replicated     false        false                      map[]      identity store                                             9f7c35dd-d7f0-7f1c-8dda-0ffcd47de8a2"
+		],
+		[
+			0.000085,
+			"\r\nkv-seal-wrapped/    kv           kv_77955b50           system         system     false             replicated     true         false                      map[]      n/a                                                        2ea4dc9f-bcf4-34fb-fdb3-10e3bc9198b2"
+		],
+		[
+			0.000105,
+			"\r\n"
+		],
+		[
+			0.000064,
+			"kv-unwrapped/       kv           kv_cb052b65           system         system     false             replicated     false        false                      map[]      n/a                                                        2a118093-8767-8653-1fbf-85e254a31805"
+		],
+		[
+			0.000085,
+			"\r\n"
+		],
+		[
+			0.000121,
+			"sys/                system       system_2ed4d4a7       n/a            n/a        false             replicated     false        false                      map[]      system endpoints used for control, policy and debugging    8cf68941-385e-dd94-2d21-57d3b7dbba9f\u001b[0m"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.001047,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			14.160988,
+			"vault kv put kv-unwrapped/unwrapped password=\"my-long-password\""
+		],
+		[
+			0.376294,
+			"\r\n"
+		],
+		[
+			0.028594,
+			"\u001b[0mSuccess! Data written to: kv-unwrapped/unwrapped\u001b[0m\r\n"
+		],
+		[
+			0.001114,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			3.199443,
+			"vault kv put kv-seal-wrapped/wrapped password=\"my-long-password\""
+		],
+		[
+			0.192965,
+			"\r\n"
+		],
+		[
+			0.028436,
+			"\u001b[0mSuccess! Data written to: kv-seal-wrapped/wrapped\u001b[0m"
+		],
+		[
+			0.000060,
+			"\r\n"
+		],
+		[
+			0.000966,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			3.301081,
+			"vault kv get kv-unwrapped/unwrapped"
+		],
+		[
+			0.275667,
+			"\r\n"
+		],
+		[
+			0.025369,
+			"\u001b[0m====== Data ======\u001b[0m"
+		],
+		[
+			0.000094,
+			"\r\n"
+		],
+		[
+			0.000116,
+			"\u001b[0mKey         Value"
+		],
+		[
+			0.000104,
+			"\r\n"
+		],
+		[
+			0.000075,
+			"---         -----"
+		],
+		[
+			0.000085,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"password    my-long-password\u001b[0m"
+		],
+		[
+			0.000141,
+			"\r\n"
+		],
+		[
+			0.001000,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			2.838898,
+			"vault kv get kv-seal-wrapped/wrapped"
+		],
+		[
+			0.205216,
+			"\r\n"
+		],
+		[
+			0.022145,
+			"\u001b[0m====== Data ======\u001b[0m"
+		],
+		[
+			0.000149,
+			"\r\n\u001b[0mKey         Value"
+		],
+		[
+			0.000054,
+			"\r\n"
+		],
+		[
+			0.000078,
+			"---         -----"
+		],
+		[
+			0.000064,
+			"\r\n"
+		],
+		[
+			0.000121,
+			"password    my-long-password\u001b[0m"
+		],
+		[
+			0.000079,
+			"\r\n"
+		],
+		[
+			0.001025,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			4.013044,
+			"c"
+		],
+		[
+			0.070798,
+			"a"
+		],
+		[
+			0.268540,
+			"t"
+		],
+		[
+			0.020824,
+			" "
+		],
+		[
+			0.427770,
+			"/"
+		],
+		[
+			0.048735,
+			"e"
+		],
+		[
+			0.072687,
+			"tc/"
+		],
+		[
+			0.500838,
+			"v"
+		],
+		[
+			0.083523,
+			"a"
+		],
+		[
+			0.095989,
+			"u"
+		],
+		[
+			0.140138,
+			"lt/"
+		],
+		[
+			0.669720,
+			"v"
+		],
+		[
+			0.247483,
+			"a"
+		],
+		[
+			0.197996,
+			"\u0007"
+		],
+		[
+			0.477310,
+			"\b\u001b[K"
+		],
+		[
+			0.143901,
+			"\b\u001b[K"
+		],
+		[
+			0.084025,
+			"config.hcl "
+		],
+		[
+			0.386718,
+			"\r\n"
+		],
+		[
+			0.000546,
+			"ui = true"
+		],
+		[
+			0.000154,
+			"\r\n"
+		],
+		[
+			0.000074,
+			"\r\n"
+		],
+		[
+			0.000144,
+			"listener \"tcp\" {"
+		],
+		[
+			0.000138,
+			"\r\n"
+		],
+		[
+			0.000079,
+			"  address = \"0.0.0.0:8200\""
+		],
+		[
+			0.000117,
+			"\r\n"
+		],
+		[
+			0.000169,
+			"  tls_disable = \"true\""
+		],
+		[
+			0.000098,
+			"\r\n"
+		],
+		[
+			0.000104,
+			"}"
+		],
+		[
+			0.000104,
+			"\r\n"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.000019,
+			"storage \"file\" {"
+		],
+		[
+			0.000086,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"  path = \"/home/vault/data\""
+		],
+		[
+			0.000103,
+			"\r\n"
+		],
+		[
+			0.000119,
+			"}"
+		],
+		[
+			0.000101,
+			"\r\n"
+		],
+		[
+			0.000180,
+			"\r\n"
+		],
+		[
+			0.000108,
+			"seal \"pkcs11\" {"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000118,
+			"  lib            = \"/usr/lib/softhsm/libsofthsm2.so\""
+		],
+		[
+			0.000085,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"  slot           = \"338641456\""
+		],
+		[
+			0.000093,
+			"\r\n"
+		],
+		[
+			0.000127,
+			"  key_label      = \"hsm_demo\""
+		],
+		[
+			0.000109,
+			"\r\n"
+		],
+		[
+			0.000083,
+			"  hmac_key_label = \"hmac-key\""
+		],
+		[
+			0.000074,
+			"\r\n"
+		],
+		[
+			0.000065,
+			"  generate_key   = \"true\""
+		],
+		[
+			0.000109,
+			"\r\n"
+		],
+		[
+			0.000091,
+			"}"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000267,
+			"root@debian-9:/home/vagrant# "
+		],
+		[
+			2.675812,
+			"cd /home/vault/data"
+		],
+		[
+			0.639952,
+			"\r\nroot@debian-9:/home/vault/data# "
+		],
+		[
+			1.725300,
+			"a"
+		],
+		[
+			0.115746,
+			"p"
+		],
+		[
+			0.128977,
+			"t"
+		],
+		[
+			0.052844,
+			" "
+		],
+		[
+			0.046988,
+			"i"
+		],
+		[
+			0.166764,
+			"n"
+		],
+		[
+			0.033649,
+			"s"
+		],
+		[
+			0.080580,
+			"t"
+		],
+		[
+			0.097699,
+			"a"
+		],
+		[
+			0.083496,
+			"l"
+		],
+		[
+			0.111697,
+			"l"
+		],
+		[
+			0.039581,
+			" "
+		],
+		[
+			0.083431,
+			"t"
+		],
+		[
+			0.153507,
+			"r"
+		],
+		[
+			0.079229,
+			"e"
+		],
+		[
+			0.119449,
+			"e"
+		],
+		[
+			0.126143,
+			"\r\n"
+		],
+		[
+			0.018379,
+			"\rReading package lists... 0%\r"
+		],
+		[
+			0.012834,
+			"\rReading package lists... 100%\r"
+		],
+		[
+			0.000054,
+			"\rReading package lists... Done\r"
+		],
+		[
+			0.000124,
+			"\r\n"
+		],
+		[
+			0.005065,
+			"\rBuilding dependency tree... 0%\r"
+		],
+		[
+			0.000082,
+			"\rBuilding dependency tree... 0%\r"
+		],
+		[
+			0.018681,
+			"\rBuilding dependency tree... 50%\r"
+		],
+		[
+			0.000054,
+			"\rBuilding dependency tree... 50%\r"
+		],
+		[
+			0.087533,
+			"\rBuilding dependency tree       \r"
+		],
+		[
+			0.000130,
+			"\r\n\rReading state information... 0%\r"
+		],
+		[
+			0.000035,
+			"\rReading state information... 0%\r"
+		],
+		[
+			0.000515,
+			"\rReading state information... Done\r"
+		],
+		[
+			0.000049,
+			"\r\n"
+		],
+		[
+			0.090148,
+			"The following NEW packages will be installed:\r\n  tree\r\n0 upgraded, 1 newly installed, 0 to remove and 2 not upgraded.\r\nNeed to get 46.1 kB of archives.\r\nAfter this operation, 106 kB of additional disk space will be used.\r\n"
+		],
+		[
+			0.002053,
+			"\u001b[33m\r0% [Working]\u001b[0m"
+		],
+		[
+			0.069869,
+			"\r            \rGet:1 http://httpredir.debian.org/debian stretch/main amd64 tree amd64 1.7.0-5 [46.1 kB]\r\n\u001b[33m\r0% [1 tree 0 B/46.1 kB 0%]\u001b[0m"
+		],
+		[
+			0.046330,
+			"\u001b[33m\r                          \r100% [Working]\u001b[0m\r              \rFetched 46.1 kB in 0s (397 kB/s)\r\n"
+		],
+		[
+			0.262533,
+			"\n\u001b7\u001b[0;37r\u001b8\u001b[1A"
+		],
+		[
+			0.012555,
+			"Selecting previously unselected package tree.\r\n(Reading database ... \r"
+		],
+		[
+			0.000267,
+			"(Reading database ... 5%\r"
+		],
+		[
+			0.000101,
+			"(Reading database ... 10%\r"
+		],
+		[
+			0.000089,
+			"(Reading database ... 15%\r"
+		],
+		[
+			0.000088,
+			"(Reading database ... 20%\r"
+		],
+		[
+			0.000090,
+			"(Reading database ... 25%\r"
+		],
+		[
+			0.000092,
+			"(Reading database ... 30%\r"
+		],
+		[
+			0.000094,
+			"(Reading database ... 35%\r"
+		],
+		[
+			0.000170,
+			"(Reading database ... 40%\r"
+		],
+		[
+			0.000163,
+			"(Reading database ... 45%\r"
+		],
+		[
+			0.000156,
+			"(Reading database ... 50%\r"
+		],
+		[
+			0.000100,
+			"(Reading database ... 55%\r"
+		],
+		[
+			0.000093,
+			"(Reading database ... 60%\r"
+		],
+		[
+			0.000100,
+			"(Reading database ... 65%\r"
+		],
+		[
+			0.002319,
+			"(Reading database ... 70%\r"
+		],
+		[
+			0.000954,
+			"(Reading database ... 75%\r"
+		],
+		[
+			0.000986,
+			"(Reading database ... 80%\r"
+		],
+		[
+			0.001526,
+			"(Reading database ... 85%\r"
+		],
+		[
+			0.002200,
+			"(Reading database ... 90%\r"
+		],
+		[
+			0.001424,
+			"(Reading database ... 95%\r"
+		],
+		[
+			0.001443,
+			"(Reading database ... 100%\r"
+		],
+		[
+			0.000049,
+			"(Reading database ... "
+		],
+		[
+			0.000188,
+			"30566 files and directories currently installed.)"
+		],
+		[
+			0.000073,
+			"\r\n"
+		],
+		[
+			0.001236,
+			"Preparing to unpack .../tree_1.7.0-5_amd64.deb ..."
+		],
+		[
+			0.000103,
+			"\r\n"
+		],
+		[
+			0.000184,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [  0%]\u001b[49m\u001b[39m [............................................................................................................................................] \u001b8"
+		],
+		[
+			0.000153,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [ 16%]\u001b[49m\u001b[39m [#######################.....................................................................................................................] \u001b8"
+		],
+		[
+			0.001969,
+			"Unpacking tree (1.7.0-5) ..."
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.029487,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [ 33%]\u001b[49m\u001b[39m [##############################################..............................................................................................] \u001b8"
+		],
+		[
+			0.001904,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [ 50%]\u001b[49m\u001b[39m [######################################################################......................................................................] \u001b8"
+		],
+		[
+			0.019177,
+			"Setting up tree (1.7.0-5) ..."
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.011642,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [ 66%]\u001b[49m\u001b[39m [#############################################################################################...............................................] \u001b8"
+		],
+		[
+			0.002187,
+			"\u001b7\u001b[38;0f\u001b[42m\u001b[30mProgress: [ 83%]\u001b[49m\u001b[39m [####################################################################################################################........................] \u001b8"
+		],
+		[
+			0.001357,
+			"Processing triggers for man-db (2.7.6.1-2) ..."
+		],
+		[
+			0.000090,
+			"\r\n"
+		],
+		[
+			0.170881,
+			"\r\n"
+		],
+		[
+			0.000168,
+			"\u001b7\u001b[0;38r\u001b8\u001b[1A\u001b[J"
+		],
+		[
+			0.004262,
+			"root@debian-9:/home/vault/data# "
+		],
+		[
+			0.609431,
+			"t"
+		],
+		[
+			0.170755,
+			"r"
+		],
+		[
+			0.196895,
+			"e"
+		],
+		[
+			0.162617,
+			"e"
+		],
+		[
+			0.120787,
+			"\r\n"
+		],
+		[
+			0.000765,
+			"\u001b[01;34m.\u001b[00m"
+		],
+		[
+			0.000126,
+			"\r\n"
+		],
+		[
+			0.000174,
+			"├── \u001b[01;34mcore\u001b[00m"
+		],
+		[
+			0.000098,
+			"\r\n"
+		],
+		[
+			0.000112,
+			"│   ├── _audit"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000197,
+			"│   ├── _auth"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000132,
+			"│   ├── \u001b[01;34mcluster\u001b[00m"
+		],
+		[
+			0.000082,
+			"\r\n"
+		],
+		[
+			0.000131,
+			"│   │   └── \u001b[01;34mlocal\u001b[00m"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000106,
+			"│   │       └── _info"
+		],
+		[
+			0.000077,
+			"\r\n"
+		],
+		[
+			0.000117,
+			"│   ├── \u001b[01;34mhsm\u001b[00m"
+		],
+		[
+			0.000122,
+			"\r\n"
+		],
+		[
+			0.000111,
+			"│   │   └── _barrier-unseal-keys"
+		],
+		[
+			0.000064,
+			"\r\n"
+		],
+		[
+			0.000120,
+			"│   ├── _keyring"
+		],
+		[
+			0.000090,
+			"\r\n"
+		],
+		[
+			0.000168,
+			"│   ├── _local-audit"
+		],
+		[
+			0.000092,
+			"\r\n"
+		],
+		[
+			0.000086,
+			"│   ├── _local-auth"
+		],
+		[
+			0.000098,
+			"\r\n"
+		],
+		[
+			0.000089,
+			"│   ├── _local-mounts"
+		],
+		[
+			0.000079,
+			"\r\n"
+		],
+		[
+			0.000098,
+			"│   ├── _master"
+		],
+		[
+			0.000099,
+			"\r\n"
+		],
+		[
+			0.000082,
+			"│   ├── _mounts"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000125,
+			"│   ├── _recovery-config"
+		],
+		[
+			0.000071,
+			"\r\n"
+		],
+		[
+			0.000093,
+			"│   ├── _recovery-key"
+		],
+		[
+			0.000091,
+			"\r\n"
+		],
+		[
+			0.000080,
+			"│   ├── _seal-config"
+		],
+		[
+			0.000109,
+			"\r\n"
+		],
+		[
+			0.000121,
+			"│   └── \u001b[01;34mwrapping\u001b[00m"
+		],
+		[
+			0.000090,
+			"\r\n"
+		],
+		[
+			0.000098,
+			"│       └── _jwtkey"
+		],
+		[
+			0.000078,
+			"\r\n"
+		],
+		[
+			0.000121,
+			"├── \u001b[01;34mlogical\u001b[00m"
+		],
+		[
+			0.000086,
+			"\r\n"
+		],
+		[
+			0.000114,
+			"│   ├── \u001b[01;34m2a118093-8767-8653-1fbf-85e254a31805\u001b[00m"
+		],
+		[
+			0.000095,
+			"\r\n"
+		],
+		[
+			0.000086,
+			"│   │   └── _unwrapped"
+		],
+		[
+			0.000101,
+			"\r\n"
+		],
+		[
+			0.000109,
+			"│   ├── \u001b[01;34m2ea4dc9f-bcf4-34fb-fdb3-10e3bc9198b2\u001b[00m"
+		],
+		[
+			0.000081,
+			"\r\n"
+		],
+		[
+			0.000116,
+			"│   │   └── _wrapped"
+		],
+		[
+			0.000114,
+			"\r\n"
+		],
+		[
+			0.000135,
+			"│   └── \u001b[01;34m9f7c35dd-d7f0-7f1c-8dda-0ffcd47de8a2\u001b[00m"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000099,
+			"│       └── _casesensitivity"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000114,
+			"└── \u001b[01;34msys\u001b[00m"
+		],
+		[
+			0.000070,
+			"\r\n"
+		],
+		[
+			0.000113,
+			"    ├── \u001b[01;34mcounters\u001b[00m"
+		],
+		[
+			0.000079,
+			"\r\n"
+		],
+		[
+			0.000123,
+			"    │   └── \u001b[01;34mrequests\u001b[00m"
+		],
+		[
+			0.000070,
+			"\r\n"
+		],
+		[
+			0.000123,
+			"    │       └── \u001b[01;34m2020\u001b[00m"
+		],
+		[
+			0.000088,
+			"\r\n"
+		],
+		[
+			0.000090,
+			"    │           └── _05"
+		],
+		[
+			0.000087,
+			"\r\n"
+		],
+		[
+			0.000118,
+			"    ├── \u001b[01;34mpolicy\u001b[00m"
+		],
+		[
+			0.000068,
+			"\r\n"
+		],
+		[
+			0.000101,
+			"    │   ├── _control-group"
+		],
+		[
+			0.000085,
+			"\r\n"
+		],
+		[
+			0.000090,
+			"    │   ├── _default"
+		],
+		[
+			0.000098,
+			"\r\n"
+		],
+		[
+			0.000090,
+			"    │   └── _response-wrapping"
+		],
+		[
+			0.000079,
+			"\r\n"
+		],
+		[
+			0.000108,
+			"    └── \u001b[01;34mtoken\u001b[00m"
+		],
+		[
+			0.000070,
+			"\r\n"
+		],
+		[
+			0.000157,
+			"        ├── \u001b[01;34maccessor\u001b[00m"
+		],
+		[
+			0.000086,
+			"\r\n"
+		],
+		[
+			0.000110,
+			"        │   └── _4f29067c38c22979562d6947ed15260496913fa6"
+		],
+		[
+			0.000072,
+			"\r\n"
+		],
+		[
+			0.000131,
+			"        ├── \u001b[01;34mid\u001b[00m"
+		],
+		[
+			0.000067,
+			"\r\n"
+		],
+		[
+			0.000114,
+			"        │   └── _h3b02b89a0061c31fdca35cd22a594a6ff1d6a88f52e79230a811917fdc16abcc"
+		],
+		[
+			0.000108,
+			"\r\n"
+		],
+		[
+			0.000096,
+			"        └── _salt"
+		],
+		[
+			0.000278,
+			"\r\n\r\n17 directories, 24 files\r\nroot@debian-9:/home/vault/data# "
+		],
+		[
+			1.529726,
+			"c"
+		],
+		[
+			0.200875,
+			"d"
+		],
+		[
+			0.044019,
+			" "
+		],
+		[
+			0.120727,
+			"l"
+		],
+		[
+			0.144536,
+			"o"
+		],
+		[
+			0.092285,
+			"gical/"
+		],
+		[
+			0.317525,
+			"\r\nroot@debian-9:/home/vault/data/logical# "
+		],
+		[
+			0.439600,
+			"t"
+		],
+		[
+			0.170568,
+			"r"
+		],
+		[
+			0.129863,
+			"e"
+		],
+		[
+			0.155519,
+			"e"
+		],
+		[
+			0.153392,
+			"\r\n"
+		],
+		[
+			0.000687,
+			"\u001b[01;34m.\u001b[00m"
+		],
+		[
+			0.000076,
+			"\r\n"
+		],
+		[
+			0.000149,
+			"├── \u001b[01;34m2a118093-8767-8653-1fbf-85e254a31805\u001b[00m"
+		],
+		[
+			0.000116,
+			"\r\n"
+		],
+		[
+			0.000138,
+			"│   └── _unwrapped"
+		],
+		[
+			0.000133,
+			"\r\n"
+		],
+		[
+			0.000209,
+			"├── \u001b[01;34m2ea4dc9f-bcf4-34fb-fdb3-10e3bc9198b2\u001b[00m"
+		],
+		[
+			0.000124,
+			"\r\n"
+		],
+		[
+			0.000176,
+			"│   └── _wrapped"
+		],
+		[
+			0.000113,
+			"\r\n"
+		],
+		[
+			0.000113,
+			"└── \u001b[01;34m9f7c35dd-d7f0-7f1c-8dda-0ffcd47de8a2\u001b[00m"
+		],
+		[
+			0.000092,
+			"\r\n"
+		],
+		[
+			0.000131,
+			"    └── _casesensitivity"
+		],
+		[
+			0.000148,
+			"\r\n"
+		],
+		[
+			0.000095,
+			"\r\n"
+		],
+		[
+			0.000228,
+			"3 directories, 3 files"
+		],
+		[
+			0.000071,
+			"\r\n"
+		],
+		[
+			0.000257,
+			"root@debian-9:/home/vault/data/logical# "
+		],
+		[
+			4.544422,
+			"c"
+		],
+		[
+			0.503969,
+			"\b\u001b[K"
+		],
+		[
+			0.374681,
+			"c"
+		],
+		[
+			0.103986,
+			"a"
+		],
+		[
+			0.278197,
+			"t"
+		],
+		[
+			0.045070,
+			" "
+		],
+		[
+			0.410240,
+			"2a118093-8767-8653-1fbf-85e254a31805"
+		],
+		[
+			0.261426,
+			"/"
+		],
+		[
+			0.314827,
+			"_unwrapped "
+		],
+		[
+			0.531684,
+			"\r\n"
+		],
+		[
+			0.000599,
+			"{\"Value\":\"AAAAAQKSFps23/Qepin+jkJEIF6PK/U4kZgU3ptP3gJpXhaYj1p5VTdQzy0dGXinetSUCYBKfccz36jO9eNdiA==\"}"
+		],
+		[
+			0.000080,
+			"\r\n"
+		],
+		[
+			0.000290,
+			"root@debian-9:/home/vault/data/logical# "
+		],
+		[
+			2.512103,
+			"c"
+		],
+		[
+			0.089786,
+			"a"
+		],
+		[
+			0.222982,
+			"t"
+		],
+		[
+			0.028180,
+			" "
+		],
+		[
+			0.269136,
+			"2ea4dc9f-bcf4-34fb-fdb3-10e3bc9198b2"
+		],
+		[
+			0.216314,
+			"/"
+		],
+		[
+			0.318432,
+			"_wrapped "
+		],
+		[
+			0.507650,
+			"\r\n"
+		],
+		[
+			0.000598,
+			"{\"Value\":\"ClBdco786Q7fvKOmk5OdTRTq5BrON/A1fbD1oW97XJORooqS1TOMx9y58oUQxFdYSzVK7hT4/fR9SAXmM+d6knzGjZIB5jhBWzFGIop8YWUxGRIQq7Cw4XIcHAqk5YNcavpNiBog9a/sJPb9ymCKiRccJoXfnFj6rtCfhLoarD2xxU2NXNwgASoaCIUhENEEGghoc21fZGVtbyIIaG1hYy1rZXlz\"}"
+		],
+		[
+			0.000133,
+			"\r\n"
+		],
+		[
+			0.000574,
+			"root@debian-9:/home/vault/data/logical# "
+		],
+		[
+			71.755730,
+			"e"
+		],
+		[
+			0.212993,
+			"x"
+		],
+		[
+			0.082376,
+			"i"
+		],
+		[
+			0.204160,
+			"t"
+		],
+		[
+			0.130573,
+			"\r\nexit\r\n\u001b]0;vagrant@debian-9: ~\u0007\u001b[01;32mvagrant@debian-9\u001b[00m:\u001b[01;34m~\u001b[00m$ "
+		],
+		[
+			0.386101,
+			"e"
+		],
+		[
+			0.193468,
+			"x"
+		],
+		[
+			0.100049,
+			"i"
+		],
+		[
+			0.134349,
+			"t"
+		],
+		[
+			0.142278,
+			"\r\nlogout\r\n"
+		],
+		[
+			0.002279,
+			"Connection to 127.0.0.1 closed.\r\r\n"
+		],
+		[
+			0.000951,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                 \r \r"
+		],
+		[
+			0.000339,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP vagrant % "
+		],
+		[
+			0.000018,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			0.782159,
+			"e"
+		],
+		[
+			0.221625,
+			"\bex"
+		],
+		[
+			0.126393,
+			"i"
+		],
+		[
+			0.164497,
+			"t"
+		],
+		[
+			3.623921,
+			"\u001b[?2004l\r\r\n"
+		]
+	],
+	"duration": 190.955170
+}

@@ -1,0 +1,2834 @@
+{
+	"version": 1,
+	"width": 80,
+	"height": 24,
+	"command": null,
+	"title": null,
+	"stdout": [
+		[
+			0.000000,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000320,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000016,
+			"\u001b[K"
+		],
+		[
+			0.000024,
+			"\u001b[?2004h"
+		],
+		[
+			4.588418,
+			"\u001b[7mdocker-compose build\u001b[27m"
+		],
+		[
+			0.339362,
+			"\u001b[20D\u001b[27md\u001b[27mo\u001b[27mc\u001b[27mk\u001b[27me\u001b[27mr\u001b[27m-\u001b[27mc\u001b[27mo\u001b[27mm\u001b[27mp\u001b[27mo\u001b[27ms\u001b[27me\u001b[27m \u001b[27mb\u001b[27mu\u001b[27mi\u001b[27ml\u001b[27md"
+		],
+		[
+			0.000036,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.356770,
+			"Building vault\r\n"
+		],
+		[
+			0.155643,
+			"Step 1/17 : FROM debian:9\r\n"
+		],
+		[
+			1.415444,
+			"\u001b[2K\r9: Pulling from library/debian\r\r\n"
+		],
+		[
+			0.390489,
+			"\r\n"
+		],
+		[
+			0.000085,
+			"\u001b[1A\u001b[2K\r99760bc62448: Pulling fs layer\r\u001b[1B"
+		],
+		[
+			0.592316,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000045,
+			"99760bc62448: Downloading [>                                                  ]  457.8kB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.163848,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000030,
+			"99760bc62448: Downloading [=>                                                 ]  1.391MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.130019,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [==>                                                ]  2.304MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.132866,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [===>                                               ]  3.218MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.170716,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000050,
+			"99760bc62448: Downloading [====>                                              ]  4.135MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.126105,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [=====>                                             ]  5.061MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.104638,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [======>                                            ]  5.979MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.164939,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000042,
+			"99760bc62448: Downloading [=======>                                           ]  6.904MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.106140,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [========>                                          ]  7.822MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.175181,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000058,
+			"99760bc62448: Downloading [=========>                                         ]  8.735MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.104949,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000030,
+			"99760bc62448: Downloading [==========>                                        ]  9.653MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.130296,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000042,
+			"99760bc62448: Downloading [===========>                                       ]  10.57MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.135969,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000038,
+			"99760bc62448: Downloading [============>                                      ]   11.5MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.141080,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [=============>                                     ]  12.42MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.143850,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000041,
+			"99760bc62448: Downloading [==============>                                    ]  13.34MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.127016,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000052,
+			"99760bc62448: Downloading [===============>                                   ]   13.8MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.144765,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000052,
+			"99760bc62448: Downloading [================>                                  ]  15.18MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.228686,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000052,
+			"99760bc62448: Downloading [=================>                                 ]   16.1MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.264579,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000055,
+			"99760bc62448: Downloading [==================>                                ]  17.01MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.190067,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000044,
+			"99760bc62448: Downloading [===================>                               ]  17.93MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.102775,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000050,
+			"99760bc62448: Downloading [====================>                              ]  18.39MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.130970,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000037,
+			"99760bc62448: Downloading [====================>                              ]  18.85MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.119122,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [=====================>                             ]   19.3MB/45.38MB\r"
+		],
+		[
+			0.000051,
+			"\u001b[1B"
+		],
+		[
+			0.203981,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000031,
+			"99760bc62448: Downloading [======================>                            ]  20.22MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.134229,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000032,
+			"99760bc62448: Downloading [======================>                            ]  20.67MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.120661,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000024,
+			"99760bc62448: Downloading [=======================>                           ]  21.14MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.118942,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000036,
+			"99760bc62448: Downloading [=======================>                           ]   21.6MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.110221,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000029,
+			"99760bc62448: Downloading [========================>                          ]  22.06MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.153169,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000080,
+			"99760bc62448: Downloading [========================>                          ]  22.51MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.130782,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000034,
+			"99760bc62448: Downloading [=========================>                         ]  22.97MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.166248,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [=========================>                         ]  23.43MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.181296,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000022,
+			"99760bc62448: Downloading [==========================>                        ]  24.35MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.177526,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000029,
+			"99760bc62448: Downloading [===========================>                       ]  25.27MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.134031,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [============================>                      ]  25.73MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.193798,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000061,
+			"99760bc62448: Downloading [=============================>                     ]  26.65MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.107465,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000063,
+			"99760bc62448: Downloading [=============================>                     ]  27.11MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.138721,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000053,
+			"99760bc62448: Downloading [==============================>                    ]  28.03MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.130703,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [===============================>                   ]  28.95MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.137079,
+			"\u001b[1A\u001b[2K\r99760bc62448: Downloading [================================>                  ]  29.87MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.106549,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000039,
+			"99760bc62448: Downloading [=================================>                 ]  30.33MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.137316,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000043,
+			"99760bc62448: Downloading [==================================>                ]  31.25MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.122236,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000052,
+			"99760bc62448: Downloading [===================================>               ]  32.16MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.189717,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000032,
+			"99760bc62448: Downloading [====================================>              ]  33.54MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.115532,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000036,
+			"99760bc62448: Downloading [=====================================>             ]  34.46MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.105021,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000058,
+			"99760bc62448: Downloading [======================================>            ]  34.92MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.135775,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000042,
+			"99760bc62448: Downloading [=======================================>           ]  35.84MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.127870,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [========================================>          ]  36.75MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.112945,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000050,
+			"99760bc62448: Downloading [=========================================>         ]  37.21MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.115833,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000060,
+			"99760bc62448: Downloading [==========================================>        ]  38.13MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.127819,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [===========================================>       ]  39.05MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.114675,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000039,
+			"99760bc62448: Downloading [============================================>      ]  39.97MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.180404,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000053,
+			"99760bc62448: Downloading [=============================================>     ]  40.89MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.101823,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000034,
+			"99760bc62448: Downloading [==============================================>    ]  41.81MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.161262,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000052,
+			"99760bc62448: Downloading [===============================================>   ]  42.73MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.155824,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000039,
+			"99760bc62448: Downloading [================================================>  ]  43.65MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.123766,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000040,
+			"99760bc62448: Downloading [=================================================> ]  44.58MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.142017,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000056,
+			"99760bc62448: Verifying Checksum\r\u001b[1B\u001b[1A\u001b[2K\r99760bc62448: Download complete\r"
+		],
+		[
+			0.000013,
+			"\u001b[1B"
+		],
+		[
+			0.044330,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000023,
+			"99760bc62448: Extracting [>                                                  ]  458.8kB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.104641,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000031,
+			"99760bc62448: Extracting [=======>                                           ]  6.881MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.102744,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000030,
+			"99760bc62448: Extracting [==============>                                    ]  12.85MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.103860,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000027,
+			"99760bc62448: Extracting [===================>                               ]  17.89MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.116837,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000032,
+			"99760bc62448: Extracting [=======================>                           ]  21.56MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.104019,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000034,
+			"99760bc62448: Extracting [================================>                  ]  29.36MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.101739,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000035,
+			"99760bc62448: Extracting [=====================================>             ]  34.41MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.104423,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000035,
+			"99760bc62448: Extracting [==========================================>        ]  38.54MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.110883,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000026,
+			"99760bc62448: Extracting [===============================================>   ]  42.66MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.160173,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000023,
+			"99760bc62448: Extracting [=================================================> ]   44.5MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.080026,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000041,
+			"99760bc62448: Extracting [==================================================>]  45.38MB/45.38MB\r\u001b[1B"
+		],
+		[
+			0.065008,
+			"\u001b[1A\u001b[2K\r"
+		],
+		[
+			0.000027,
+			"99760bc62448: Pull complete\r\u001b[1B"
+		],
+		[
+			0.002754,
+			"\u001b[2K\rDigest: sha256:666ffd4fbcdff07edcbd65f0ec1dc86ed294f5e3be93eb26280575f77427df46\r\r\n"
+		],
+		[
+			0.001881,
+			"\u001b[2K\r"
+		],
+		[
+			0.000020,
+			"Status: Downloaded newer image for debian:9\r\r\n"
+		],
+		[
+			0.000236,
+			" ---> bd753a4a335e\r\n"
+		],
+		[
+			0.000020,
+			"Step 2/17 : ARG VAULT_VERSION\r\n"
+		],
+		[
+			0.193046,
+			" ---> Running in e399bdd2e725\r\n"
+		],
+		[
+			0.073536,
+			"Removing intermediate container e399bdd2e725\r\n"
+		],
+		[
+			0.000029,
+			" ---> cff1c78ae019\r\nStep 3/17 : RUN apt-get update && apt-get install -y libltdl7 libsofthsm2 softhsm2 opensc libcap2-bin\r\n"
+		],
+		[
+			0.031506,
+			" ---> Running in eae61f945865\r\n"
+		],
+		[
+			0.241757,
+			"Get:1 http://security.debian.org/debian-security stretch/updates InRelease [94.3 kB]\r\n"
+		],
+		[
+			0.005264,
+			"Ign:2 http://deb.debian.org/debian stretch InRelease\r\n"
+		],
+		[
+			0.010576,
+			"Get:3 http://deb.debian.org/debian stretch-updates InRelease [91.0 kB]\r\n"
+		],
+		[
+			0.041665,
+			"Get:4 http://deb.debian.org/debian stretch Release [118 kB]\r\n"
+		],
+		[
+			0.040628,
+			"Get:5 http://deb.debian.org/debian stretch Release.gpg [2410 B]\r\n"
+		],
+		[
+			0.057325,
+			"Get:6 http://security.debian.org/debian-security stretch/updates/main amd64 Packages [526 kB]\r\n"
+		],
+		[
+			0.094924,
+			"Get:7 http://deb.debian.org/debian stretch-updates/main amd64 Packages [27.9 kB]\r\n"
+		],
+		[
+			0.087062,
+			"Get:8 http://deb.debian.org/debian stretch/main amd64 Packages [7083 kB]\r\n"
+		],
+		[
+			2.561309,
+			"Fetched 7943 kB in 2s (2713 kB/s)\r\nReading package lists..."
+		],
+		[
+			0.484829,
+			"\r\n"
+		],
+		[
+			0.036966,
+			"Reading package lists..."
+		],
+		[
+			0.469416,
+			"\r\n"
+		],
+		[
+			0.021779,
+			"Building dependency tree..."
+		],
+		[
+			0.106183,
+			"\r\nReading state information...\r\n"
+		],
+		[
+			0.079652,
+			"The following additional packages will be installed:\r\n  libccid libpam-cap libpcsclite1 libreadline7 libsqlite3-0 libssl1.0.2\r\n"
+		],
+		[
+			0.000033,
+			"  libssl1.1 libusb-1.0-0 opensc-pkcs11 pcscd readline-common softhsm2-common\r\n  ucf\r\n"
+		],
+		[
+			0.000473,
+			"Suggested packages:\r\n  pcmciautils systemd readline-doc\r\n"
+		],
+		[
+			0.179749,
+			"The following NEW packages will be installed:\r\n"
+		],
+		[
+			0.000172,
+			"  libcap2-bin libccid libltdl7 libpam-cap libpcsclite1 libreadline7\r\n  libsofthsm2 libsqlite3-0 libssl1.0.2 libssl1.1 libusb-1.0-0 opensc\r\n"
+		],
+		[
+			0.000256,
+			"  opensc-pkcs11 pcscd readline-common softhsm2 softhsm2-common ucf\r\n"
+		],
+		[
+			0.027436,
+			"0 upgraded, 18 newly installed, 0 to remove and 0 not upgraded.\r\nNeed to get 5827 kB of archives.\r\nAfter this operation, 15.4 MB of additional disk space will be used.\r\nGet:1 http://deb.debian.org/debian stretch/main amd64 readline-common all 7.0-3 [70.4 kB]\r\n"
+		],
+		[
+			0.036490,
+			"Get:2 http://deb.debian.org/debian stretch/main amd64 libreadline7 amd64 7.0-3 [151 kB]\r\n"
+		],
+		[
+			0.039186,
+			"Get:3 http://deb.debian.org/debian stretch/main amd64 libssl1.0.2 amd64 1.0.2u-1~deb9u1 [1304 kB]\r\n"
+		],
+		[
+			0.211070,
+			"Get:4 http://deb.debian.org/debian stretch/main amd64 libssl1.1 amd64 1.1.0l-1~deb9u1 [1358 kB]\r\n"
+		],
+		[
+			0.240736,
+			"Get:5 http://deb.debian.org/debian stretch/main amd64 libsqlite3-0 amd64 3.16.2-5+deb9u1 [572 kB]\r\n"
+		],
+		[
+			0.094212,
+			"Get:6 http://deb.debian.org/debian stretch/main amd64 ucf all 3.0036 [70.2 kB]\r\n"
+		],
+		[
+			0.008612,
+			"Get:7 http://deb.debian.org/debian stretch/main amd64 libcap2-bin amd64 1:2.25-1 [26.5 kB]\r\n"
+		],
+		[
+			0.003442,
+			"Get:8 http://deb.debian.org/debian stretch/main amd64 libltdl7 amd64 2.4.6-2 [389 kB]\r\n"
+		],
+		[
+			0.066886,
+			"Get:9 http://deb.debian.org/debian stretch/main amd64 libpam-cap amd64 1:2.25-1 [13.5 kB]\r\n"
+		],
+		[
+			0.000403,
+			"Get:10 http://deb.debian.org/debian stretch/main amd64 libpcsclite1 amd64 1.8.20-1 [56.5 kB]\r\n"
+		],
+		[
+			0.022452,
+			"Get:11 http://deb.debian.org/debian stretch/main amd64 libusb-1.0-0 amd64 2:1.0.21-1 [53.9 kB]\r\n"
+		],
+		[
+			0.004672,
+			"Get:12 http://deb.debian.org/debian stretch/main amd64 libccid amd64 1.4.26-1 [314 kB]\r\n"
+		],
+		[
+			0.050756,
+			"Get:13 http://deb.debian.org/debian stretch/main amd64 pcscd amd64 1.8.20-1 [95.9 kB]\r\n"
+		],
+		[
+			0.017706,
+			"Get:14 http://deb.debian.org/debian stretch/main amd64 softhsm2-common amd64 2.2.0-3 [11.6 kB]\r\n"
+		],
+		[
+			0.001829,
+			"Get:15 http://deb.debian.org/debian stretch/main amd64 libsofthsm2 amd64 2.2.0-3 [203 kB]\r\n"
+		],
+		[
+			0.040142,
+			"Get:16 http://deb.debian.org/debian stretch/main amd64 opensc-pkcs11 amd64 0.16.0-3+deb9u1 [753 kB]\r\n"
+		],
+		[
+			0.154039,
+			"Get:17 http://deb.debian.org/debian stretch/main amd64 opensc amd64 0.16.0-3+deb9u1 [247 kB]\r\n"
+		],
+		[
+			0.053764,
+			"Get:18 http://deb.debian.org/debian stretch/main amd64 softhsm2 amd64 2.2.0-3 [138 kB]\r\n"
+		],
+		[
+			0.117490,
+			"\u001b[91mdebconf: delaying package configuration, since apt-utils is not installed\r\n\u001b[0m"
+		],
+		[
+			0.014168,
+			"Fetched 5827 kB in 1s (5334 kB/s)\r\n"
+		],
+		[
+			0.014748,
+			"Selecting previously unselected package readline-common.\r\r\n(Reading database ... \r"
+		],
+		[
+			0.000488,
+			"(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r"
+		],
+		[
+			0.001408,
+			"(Reading database ... 80%\r"
+		],
+		[
+			0.000648,
+			"(Reading database ... 85%\r"
+		],
+		[
+			0.000274,
+			"(Reading database ... 90%\r"
+		],
+		[
+			0.000275,
+			"(Reading database ... 95%\r"
+		],
+		[
+			0.000890,
+			"(Reading database ... 100%\r(Reading database ... 6500 files and directories currently installed.)\r\r\n"
+		],
+		[
+			0.000420,
+			"Preparing to unpack .../00-readline-common_7.0-3_all.deb ...\r\r\n"
+		],
+		[
+			0.001428,
+			"Unpacking readline-common (7.0-3) ...\r\r\n"
+		],
+		[
+			0.021961,
+			"Selecting previously unselected package libreadline7:amd64.\r\r\n"
+		],
+		[
+			0.000648,
+			"Preparing to unpack .../01-libreadline7_7.0-3_amd64.deb ...\r\r\n"
+		],
+		[
+			0.003105,
+			"Unpacking libreadline7:amd64 (7.0-3) ...\r\r\n"
+		],
+		[
+			0.032079,
+			"Selecting previously unselected package libssl1.0.2:amd64.\r\r\n"
+		],
+		[
+			0.000605,
+			"Preparing to unpack .../02-libssl1.0.2_1.0.2u-1~deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001425,
+			"Unpacking libssl1.0.2:amd64 (1.0.2u-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.114006,
+			"Selecting previously unselected package libssl1.1:amd64.\r\r\n"
+		],
+		[
+			0.000656,
+			"Preparing to unpack .../03-libssl1.1_1.1.0l-1~deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001927,
+			"Unpacking libssl1.1:amd64 (1.1.0l-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.104195,
+			"Selecting previously unselected package libsqlite3-0:amd64.\r\r\n"
+		],
+		[
+			0.001273,
+			"Preparing to unpack .../04-libsqlite3-0_3.16.2-5+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001858,
+			"Unpacking libsqlite3-0:amd64 (3.16.2-5+deb9u1) ...\r\r\n"
+		],
+		[
+			0.058423,
+			"Selecting previously unselected package ucf.\r\r\n"
+		],
+		[
+			0.000661,
+			"Preparing to unpack .../05-ucf_3.0036_all.deb ...\r\r\n"
+		],
+		[
+			0.002547,
+			"Moving old data out of the way\r\r\n"
+		],
+		[
+			0.000917,
+			"Unpacking ucf (3.0036) ...\r\r\n"
+		],
+		[
+			0.023517,
+			"Selecting previously unselected package libcap2-bin.\r\r\n"
+		],
+		[
+			0.001030,
+			"Preparing to unpack .../06-libcap2-bin_1%3a2.25-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002247,
+			"Unpacking libcap2-bin (1:2.25-1) ...\r\r\n"
+		],
+		[
+			0.019681,
+			"Selecting previously unselected package libltdl7:amd64.\r\r\n"
+		],
+		[
+			0.000576,
+			"Preparing to unpack .../07-libltdl7_2.4.6-2_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001651,
+			"Unpacking libltdl7:amd64 (2.4.6-2) ...\r\r\n"
+		],
+		[
+			0.031951,
+			"Selecting previously unselected package libpam-cap:amd64.\r\r\n"
+		],
+		[
+			0.000733,
+			"Preparing to unpack .../08-libpam-cap_1%3a2.25-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001706,
+			"Unpacking libpam-cap:amd64 (1:2.25-1) ...\r\r\n"
+		],
+		[
+			0.024441,
+			"Selecting previously unselected package libpcsclite1:amd64.\r\r\n"
+		],
+		[
+			0.000770,
+			"Preparing to unpack .../09-libpcsclite1_1.8.20-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001943,
+			"Unpacking libpcsclite1:amd64 (1.8.20-1) ...\r\r\n"
+		],
+		[
+			0.022931,
+			"Selecting previously unselected package libusb-1.0-0:amd64.\r\r\n"
+		],
+		[
+			0.000649,
+			"Preparing to unpack .../10-libusb-1.0-0_2%3a1.0.21-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001757,
+			"Unpacking libusb-1.0-0:amd64 (2:1.0.21-1) ...\r\r\n"
+		],
+		[
+			0.021728,
+			"Selecting previously unselected package libccid.\r\r\n"
+		],
+		[
+			0.000674,
+			"Preparing to unpack .../11-libccid_1.4.26-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001773,
+			"Unpacking libccid (1.4.26-1) ...\r\r\n"
+		],
+		[
+			0.034968,
+			"Selecting previously unselected package pcscd.\r\r\n"
+		],
+		[
+			0.000830,
+			"Preparing to unpack .../12-pcscd_1.8.20-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001740,
+			"Unpacking pcscd (1.8.20-1) ...\r\r\n"
+		],
+		[
+			0.025445,
+			"Selecting previously unselected package softhsm2-common.\r\r\n"
+		],
+		[
+			0.001046,
+			"Preparing to unpack .../13-softhsm2-common_2.2.0-3_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002520,
+			"Unpacking softhsm2-common (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.018204,
+			"Selecting previously unselected package libsofthsm2.\r\r\n"
+		],
+		[
+			0.000661,
+			"Preparing to unpack .../14-libsofthsm2_2.2.0-3_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001600,
+			"Unpacking libsofthsm2 (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.039032,
+			"Selecting previously unselected package opensc-pkcs11:amd64.\r\r\n"
+		],
+		[
+			0.000689,
+			"Preparing to unpack .../15-opensc-pkcs11_0.16.0-3+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001764,
+			"Unpacking opensc-pkcs11:amd64 (0.16.0-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.080303,
+			"Selecting previously unselected package opensc.\r\r\n"
+		],
+		[
+			0.000600,
+			"Preparing to unpack .../16-opensc_0.16.0-3+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001706,
+			"Unpacking opensc (0.16.0-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.046254,
+			"Selecting previously unselected package softhsm2.\r\r\n"
+		],
+		[
+			0.000621,
+			"Preparing to unpack .../17-softhsm2_2.2.0-3_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001665,
+			"Unpacking softhsm2 (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.030562,
+			"Setting up readline-common (7.0-3) ...\r\r\n"
+		],
+		[
+			0.006926,
+			"Setting up libpam-cap:amd64 (1:2.25-1) ...\r\r\n"
+		],
+		[
+			0.071253,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000134,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.050585,
+			"Setting up libpcsclite1:amd64 (1.8.20-1) ...\r\r\n"
+		],
+		[
+			0.004800,
+			"Setting up libreadline7:amd64 (7.0-3) ...\r\r\n"
+		],
+		[
+			0.005770,
+			"Setting up libcap2-bin (1:2.25-1) ...\r\r\n"
+		],
+		[
+			0.005335,
+			"Setting up ucf (3.0036) ...\r\r\n"
+		],
+		[
+			0.073403,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000312,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.024631,
+			"Setting up libssl1.0.2:amd64 (1.0.2u-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.065888,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000033,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.022543,
+			"Setting up softhsm2-common (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.127592,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000288,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.037860,
+			"\r\r\nCreating config file /etc/softhsm/softhsm2.conf with new version\r\r\n"
+		],
+		[
+			0.047839,
+			"Setting up libusb-1.0-0:amd64 (2:1.0.21-1) ...\r\r\n"
+		],
+		[
+			0.004418,
+			"Processing triggers for libc-bin (2.24-11+deb9u4) ...\r\r\n"
+		],
+		[
+			0.009013,
+			"Setting up libssl1.1:amd64 (1.1.0l-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.064818,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000291,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.022536,
+			"Setting up libltdl7:amd64 (2.4.6-2) ...\r\r\n"
+		],
+		[
+			0.004894,
+			"Setting up libsqlite3-0:amd64 (3.16.2-5+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004750,
+			"Setting up libccid (1.4.26-1) ...\r\r\n"
+		],
+		[
+			0.009117,
+			"Setting up pcscd (1.8.20-1) ...\r\r\n"
+		],
+		[
+			0.199926,
+			"invoke-rc.d: could not determine current runlevel\r\r\n"
+		],
+		[
+			0.002806,
+			"invoke-rc.d: policy-rc.d denied execution of start.\r\r\n"
+		],
+		[
+			0.002668,
+			"Setting up libsofthsm2 (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.004645,
+			"Setting up opensc-pkcs11:amd64 (0.16.0-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004494,
+			"Setting up softhsm2 (2.2.0-3) ...\r\r\n"
+		],
+		[
+			0.004613,
+			"Setting up opensc (0.16.0-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.006628,
+			"Processing triggers for libc-bin (2.24-11+deb9u4) ...\r\r\n"
+		],
+		[
+			0.573297,
+			"Removing intermediate container eae61f945865\r\n"
+		],
+		[
+			0.000069,
+			" ---> 0c8aa2078110\r\nStep 4/17 : RUN apt-get update && apt-get install -y unzip curl\r\n"
+		],
+		[
+			0.043781,
+			" ---> Running in aaa349ce64aa\r\n"
+		],
+		[
+			0.226221,
+			"Ign:1 http://deb.debian.org/debian stretch InRelease\r\n"
+		],
+		[
+			0.014104,
+			"Hit:2 http://security.debian.org/debian-security stretch/updates InRelease\r\nHit:3 http://deb.debian.org/debian stretch-updates InRelease\r\n"
+		],
+		[
+			0.009318,
+			"Hit:4 http://deb.debian.org/debian stretch Release\r\n"
+		],
+		[
+			0.246969,
+			"Reading package lists..."
+		],
+		[
+			0.477803,
+			"\r\n"
+		],
+		[
+			0.039481,
+			"Reading package lists..."
+		],
+		[
+			0.500738,
+			"\r\n"
+		],
+		[
+			0.022948,
+			"Building dependency tree..."
+		],
+		[
+			0.101601,
+			"\r\nReading state information...\r\n"
+		],
+		[
+			0.070640,
+			"The following additional packages will be installed:\r\n  ca-certificates krb5-locales libcurl3 libffi6 libgmp10 libgnutls30\r\n  libgssapi-krb5-2 libhogweed4 libidn2-0 libk5crypto3 libkeyutils1 libkrb5-3\r\n"
+		],
+		[
+			0.000078,
+			"  libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libp11-kit0\r\n  libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh2-1\r\n"
+		],
+		[
+			0.000072,
+			"  libtasn1-6 libunistring0 openssl publicsuffix\r\n"
+		],
+		[
+			0.000706,
+			"Suggested packages:\r\n  gnutls-bin krb5-doc krb5-user libsasl2-modules-gssapi-mit\r\n  | libsasl2-modules-gssapi-heimdal libsasl2-modules-ldap libsasl2-modules-otp\r\n  libsasl2-modules-sql zip\r\n"
+		],
+		[
+			0.201723,
+			"The following NEW packages will be installed:\r\n"
+		],
+		[
+			0.000040,
+			"  ca-certificates curl krb5-locales libcurl3 libffi6 libgmp10 libgnutls30\r\n"
+		],
+		[
+			0.000171,
+			"  libgssapi-krb5-2 libhogweed4 libidn2-0 libk5crypto3 libkeyutils1 libkrb5-3\r\n  libkrb5support0 libldap-2.4-2 libldap-common libnghttp2-14 libp11-kit0\r\n  libpsl5 librtmp1 libsasl2-2 libsasl2-modules libsasl2-modules-db libssh2-1\r\n"
+		],
+		[
+			0.000397,
+			"  libtasn1-6 libunistring0 openssl publicsuffix unzip\r\n"
+		],
+		[
+			0.046845,
+			"0 upgraded, 29 newly installed, 0 to remove and 0 not upgraded.\r\nNeed to get 5193 kB of archives.\r\nAfter this operation, 13.1 MB of additional disk space will be used.\r\nGet:1 http://deb.debian.org/debian stretch/main amd64 krb5-locales all 1.15-1+deb9u1 [93.8 kB]\r\n"
+		],
+		[
+			0.013603,
+			"Get:2 http://security.debian.org/debian-security stretch/updates/main amd64 libldap-common all 2.4.44+dfsg-5+deb9u4 [85.7 kB]\r\n"
+		],
+		[
+			0.234760,
+			"Get:3 http://deb.debian.org/debian stretch/main amd64 libgmp10 amd64 2:6.1.2+dfsg-1 [253 kB]\r\n"
+		],
+		[
+			0.115765,
+			"Get:4 http://security.debian.org/debian-security stretch/updates/main amd64 libldap-2.4-2 amd64 2.4.44+dfsg-5+deb9u4 [219 kB]\r\n"
+		],
+		[
+			0.360759,
+			"Get:5 http://deb.debian.org/debian stretch/main amd64 libhogweed4 amd64 3.3-1+b2 [136 kB]\r\n"
+		],
+		[
+			0.177444,
+			"Get:6 http://deb.debian.org/debian stretch/main amd64 libffi6 amd64 3.2.1-6 [20.4 kB]\r\n"
+		],
+		[
+			0.005048,
+			"Get:7 http://deb.debian.org/debian stretch/main amd64 libp11-kit0 amd64 0.23.3-2 [111 kB]\r\n"
+		],
+		[
+			0.314843,
+			"Get:8 http://deb.debian.org/debian stretch/main amd64 libtasn1-6 amd64 4.10-1.1+deb9u1 [50.6 kB]\r\n"
+		],
+		[
+			0.007665,
+			"Get:9 http://security.debian.org/debian-security stretch/updates/main amd64 libcurl3 amd64 7.52.1-5+deb9u10 [292 kB]\r\n"
+		],
+		[
+			0.013668,
+			"Get:10 http://deb.debian.org/debian stretch/main amd64 libgnutls30 amd64 3.5.8-5+deb9u4 [896 kB]\r\n"
+		],
+		[
+			0.719952,
+			"Get:11 http://security.debian.org/debian-security stretch/updates/main amd64 curl amd64 7.52.1-5+deb9u10 [227 kB]\r\n"
+		],
+		[
+			0.864397,
+			"Get:12 http://deb.debian.org/debian stretch/main amd64 libkeyutils1 amd64 1.5.9-9 [12.4 kB]\r\n"
+		],
+		[
+			0.000947,
+			"Get:13 http://deb.debian.org/debian stretch/main amd64 libkrb5support0 amd64 1.15-1+deb9u1 [61.9 kB]\r\n"
+		],
+		[
+			0.001207,
+			"Get:14 http://deb.debian.org/debian stretch/main amd64 libk5crypto3 amd64 1.15-1+deb9u1 [119 kB]\r\n"
+		],
+		[
+			0.190808,
+			"Get:15 http://deb.debian.org/debian stretch/main amd64 libkrb5-3 amd64 1.15-1+deb9u1 [311 kB]\r\n"
+		],
+		[
+			0.379824,
+			"Get:16 http://deb.debian.org/debian stretch/main amd64 libgssapi-krb5-2 amd64 1.15-1+deb9u1 [155 kB]\r\n"
+		],
+		[
+			0.031560,
+			"Get:17 http://deb.debian.org/debian stretch/main amd64 libsasl2-modules-db amd64 2.1.27~101-g0780600+dfsg-3+deb9u1 [68.4 kB]\r\n"
+		],
+		[
+			0.015817,
+			"Get:18 http://deb.debian.org/debian stretch/main amd64 libsasl2-2 amd64 2.1.27~101-g0780600+dfsg-3+deb9u1 [105 kB]\r\n"
+		],
+		[
+			0.023991,
+			"Get:19 http://deb.debian.org/debian stretch/main amd64 openssl amd64 1.1.0l-1~deb9u1 [749 kB]\r\n"
+		],
+		[
+			0.140478,
+			"Get:20 http://deb.debian.org/debian stretch/main amd64 ca-certificates all 20161130+nmu1+deb9u1 [182 kB]\r\n"
+		],
+		[
+			0.040685,
+			"Get:21 http://deb.debian.org/debian stretch/main amd64 libunistring0 amd64 0.9.6+really0.9.3-0.1 [279 kB]\r\n"
+		],
+		[
+			0.127475,
+			"Get:22 http://deb.debian.org/debian stretch/main amd64 libidn2-0 amd64 0.16-1+deb9u1 [60.7 kB]\r\n"
+		],
+		[
+			0.008213,
+			"Get:23 http://deb.debian.org/debian stretch/main amd64 libnghttp2-14 amd64 1.18.1-1+deb9u1 [79.2 kB]\r\n"
+		],
+		[
+			0.019003,
+			"Get:24 http://deb.debian.org/debian stretch/main amd64 libpsl5 amd64 0.17.0-3 [41.8 kB]\r\n"
+		],
+		[
+			0.047980,
+			"Get:25 http://deb.debian.org/debian stretch/main amd64 librtmp1 amd64 2.4+20151223.gitfa8646d.1-1+b1 [60.4 kB]\r\n"
+		],
+		[
+			0.005273,
+			"Get:26 http://deb.debian.org/debian stretch/main amd64 libssh2-1 amd64 1.7.0-1+deb9u1 [139 kB]\r\n"
+		],
+		[
+			0.031145,
+			"Get:27 http://deb.debian.org/debian stretch/main amd64 libsasl2-modules amd64 2.1.27~101-g0780600+dfsg-3+deb9u1 [102 kB]\r\n"
+		],
+		[
+			0.036001,
+			"Get:28 http://deb.debian.org/debian stretch/main amd64 unzip amd64 6.0-21+deb9u2 [172 kB]\r\n"
+		],
+		[
+			0.067069,
+			"Get:29 http://deb.debian.org/debian stretch/main amd64 publicsuffix all 20190415.1030-0+deb9u1 [108 kB]\r\n"
+		],
+		[
+			0.125826,
+			"\u001b[91mdebconf: delaying package configuration, since apt-utils is not installed\r\n\u001b[0m"
+		],
+		[
+			0.022208,
+			"Fetched 5193 kB in 4s (1278 kB/s)\r\n"
+		],
+		[
+			0.015636,
+			"Selecting previously unselected package krb5-locales.\r\r\n(Reading database ... \r"
+		],
+		[
+			0.001239,
+			"(Reading database ... 5%\r(Reading database ... 10%\r(Reading database ... 15%\r(Reading database ... 20%\r(Reading database ... 25%\r(Reading database ... 30%\r(Reading database ... 35%\r(Reading database ... 40%\r(Reading database ... 45%\r(Reading database ... 50%\r(Reading database ... 55%\r(Reading database ... 60%\r(Reading database ... 65%\r(Reading database ... 70%\r(Reading database ... 75%\r"
+		],
+		[
+			0.002457,
+			"(Reading database ... 80%\r"
+		],
+		[
+			0.000175,
+			"(Reading database ... 85%\r"
+		],
+		[
+			0.000483,
+			"(Reading database ... 90%\r"
+		],
+		[
+			0.001255,
+			"(Reading database ... 95%\r"
+		],
+		[
+			0.000407,
+			"(Reading database ... 100%\r(Reading database ... 6784 files and directories currently installed.)\r\r\n"
+		],
+		[
+			0.000896,
+			"Preparing to unpack .../00-krb5-locales_1.15-1+deb9u1_all.deb ...\r\r\n"
+		],
+		[
+			0.002001,
+			"Unpacking krb5-locales (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.030697,
+			"Selecting previously unselected package libgmp10:amd64.\r\r\n"
+		],
+		[
+			0.002343,
+			"Preparing to unpack .../01-libgmp10_2%3a6.1.2+dfsg-1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.005815,
+			"Unpacking libgmp10:amd64 (2:6.1.2+dfsg-1) ...\r\r\n"
+		],
+		[
+			0.046944,
+			"Selecting previously unselected package libhogweed4:amd64.\r\r\n"
+		],
+		[
+			0.001381,
+			"Preparing to unpack .../02-libhogweed4_3.3-1+b2_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002376,
+			"Unpacking libhogweed4:amd64 (3.3-1+b2) ...\r\r\n"
+		],
+		[
+			0.031221,
+			"Selecting previously unselected package libffi6:amd64.\r\r\n"
+		],
+		[
+			0.000798,
+			"Preparing to unpack .../03-libffi6_3.2.1-6_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002307,
+			"Unpacking libffi6:amd64 (3.2.1-6) ...\r\r\n"
+		],
+		[
+			0.022751,
+			"Selecting previously unselected package libp11-kit0:amd64.\r\r\n"
+		],
+		[
+			0.001004,
+			"Preparing to unpack .../04-libp11-kit0_0.23.3-2_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001763,
+			"Unpacking libp11-kit0:amd64 (0.23.3-2) ...\r\r\n"
+		],
+		[
+			0.030332,
+			"Selecting previously unselected package libtasn1-6:amd64.\r\r\n"
+		],
+		[
+			0.001128,
+			"Preparing to unpack .../05-libtasn1-6_4.10-1.1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002009,
+			"Unpacking libtasn1-6:amd64 (4.10-1.1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.024238,
+			"Selecting previously unselected package libgnutls30:amd64.\r\r\n"
+		],
+		[
+			0.001888,
+			"Preparing to unpack .../06-libgnutls30_3.5.8-5+deb9u4_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002178,
+			"Unpacking libgnutls30:amd64 (3.5.8-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.087410,
+			"Selecting previously unselected package libkeyutils1:amd64.\r\r\n"
+		],
+		[
+			0.000724,
+			"Preparing to unpack .../07-libkeyutils1_1.5.9-9_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001652,
+			"Unpacking libkeyutils1:amd64 (1.5.9-9) ...\r\r\n"
+		],
+		[
+			0.019835,
+			"Selecting previously unselected package libkrb5support0:amd64.\r\r\n"
+		],
+		[
+			0.000817,
+			"Preparing to unpack .../08-libkrb5support0_1.15-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001631,
+			"Unpacking libkrb5support0:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.027965,
+			"Selecting previously unselected package libk5crypto3:amd64.\r\r\n"
+		],
+		[
+			0.001081,
+			"Preparing to unpack .../09-libk5crypto3_1.15-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002332,
+			"Unpacking libk5crypto3:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.037837,
+			"Selecting previously unselected package libkrb5-3:amd64.\r\r\n"
+		],
+		[
+			0.001110,
+			"Preparing to unpack .../10-libkrb5-3_1.15-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002982,
+			"Unpacking libkrb5-3:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.050560,
+			"Selecting previously unselected package libgssapi-krb5-2:amd64.\r\r\n"
+		],
+		[
+			0.000805,
+			"Preparing to unpack .../11-libgssapi-krb5-2_1.15-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001822,
+			"Unpacking libgssapi-krb5-2:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.030643,
+			"Selecting previously unselected package libsasl2-modules-db:amd64.\r\r\n"
+		],
+		[
+			0.000910,
+			"Preparing to unpack .../12-libsasl2-modules-db_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001634,
+			"Unpacking libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.031572,
+			"Selecting previously unselected package libsasl2-2:amd64.\r\r\n"
+		],
+		[
+			0.000669,
+			"Preparing to unpack .../13-libsasl2-2_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001497,
+			"Unpacking libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.028263,
+			"Selecting previously unselected package libldap-common.\r\r\n"
+		],
+		[
+			0.001383,
+			"Preparing to unpack .../14-libldap-common_2.4.44+dfsg-5+deb9u4_all.deb ...\r\r\n"
+		],
+		[
+			0.001887,
+			"Unpacking libldap-common (2.4.44+dfsg-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.026399,
+			"Selecting previously unselected package libldap-2.4-2:amd64.\r\r\n"
+		],
+		[
+			0.001971,
+			"Preparing to unpack .../15-libldap-2.4-2_2.4.44+dfsg-5+deb9u4_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002576,
+			"Unpacking libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.043995,
+			"Selecting previously unselected package openssl.\r\r\n"
+		],
+		[
+			0.000763,
+			"Preparing to unpack .../16-openssl_1.1.0l-1~deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001293,
+			"Unpacking openssl (1.1.0l-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.086943,
+			"Selecting previously unselected package ca-certificates.\r\r\n"
+		],
+		[
+			0.000673,
+			"Preparing to unpack .../17-ca-certificates_20161130+nmu1+deb9u1_all.deb ...\r\r\n"
+		],
+		[
+			0.001332,
+			"Unpacking ca-certificates (20161130+nmu1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.048012,
+			"Selecting previously unselected package libunistring0:amd64.\r\r\n"
+		],
+		[
+			0.001020,
+			"Preparing to unpack .../18-libunistring0_0.9.6+really0.9.3-0.1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002173,
+			"Unpacking libunistring0:amd64 (0.9.6+really0.9.3-0.1) ...\r\r\n"
+		],
+		[
+			0.048979,
+			"Selecting previously unselected package libidn2-0:amd64.\r\r\n"
+		],
+		[
+			0.000823,
+			"Preparing to unpack .../19-libidn2-0_0.16-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001585,
+			"Unpacking libidn2-0:amd64 (0.16-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.025205,
+			"Selecting previously unselected package libnghttp2-14:amd64.\r\r\n"
+		],
+		[
+			0.000704,
+			"Preparing to unpack .../20-libnghttp2-14_1.18.1-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001521,
+			"Unpacking libnghttp2-14:amd64 (1.18.1-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.025075,
+			"Selecting previously unselected package libpsl5:amd64.\r\r\n"
+		],
+		[
+			0.001479,
+			"Preparing to unpack .../21-libpsl5_0.17.0-3_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001875,
+			"Unpacking libpsl5:amd64 (0.17.0-3) ...\r\r\n"
+		],
+		[
+			0.021494,
+			"Selecting previously unselected package librtmp1:amd64.\r\r\n"
+		],
+		[
+			0.001020,
+			"Preparing to unpack .../22-librtmp1_2.4+20151223.gitfa8646d.1-1+b1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002236,
+			"Unpacking librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1+b1) ...\r\r\n"
+		],
+		[
+			0.028572,
+			"Selecting previously unselected package libssh2-1:amd64.\r\r\n"
+		],
+		[
+			0.001142,
+			"Preparing to unpack .../23-libssh2-1_1.7.0-1+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002072,
+			"Unpacking libssh2-1:amd64 (1.7.0-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.034421,
+			"Selecting previously unselected package libcurl3:amd64.\r\r\n"
+		],
+		[
+			0.000887,
+			"Preparing to unpack .../24-libcurl3_7.52.1-5+deb9u10_amd64.deb ...\r\r\n"
+		],
+		[
+			0.001556,
+			"Unpacking libcurl3:amd64 (7.52.1-5+deb9u10) ...\r\r\n"
+		],
+		[
+			0.043515,
+			"Selecting previously unselected package curl.\r\r\n"
+		],
+		[
+			0.001087,
+			"Preparing to unpack .../25-curl_7.52.1-5+deb9u10_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002186,
+			"Unpacking curl (7.52.1-5+deb9u10) ...\r\r\n"
+		],
+		[
+			0.036383,
+			"Selecting previously unselected package libsasl2-modules:amd64.\r\r\n"
+		],
+		[
+			0.000738,
+			"Preparing to unpack .../26-libsasl2-modules_2.1.27~101-g0780600+dfsg-3+deb9u1_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002784,
+			"Unpacking libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.030962,
+			"Selecting previously unselected package unzip.\r\r\n"
+		],
+		[
+			0.001609,
+			"Preparing to unpack .../27-unzip_6.0-21+deb9u2_amd64.deb ...\r\r\n"
+		],
+		[
+			0.002892,
+			"Unpacking unzip (6.0-21+deb9u2) ...\r\r\n"
+		],
+		[
+			0.032139,
+			"Selecting previously unselected package publicsuffix.\r\r\n"
+		],
+		[
+			0.001033,
+			"Preparing to unpack .../28-publicsuffix_20190415.1030-0+deb9u1_all.deb ...\r\r\n"
+		],
+		[
+			0.002557,
+			"Unpacking publicsuffix (20190415.1030-0+deb9u1) ...\r\r\n"
+		],
+		[
+			0.031088,
+			"Setting up libnghttp2-14:amd64 (1.18.1-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.005534,
+			"Setting up libldap-common (2.4.44+dfsg-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.007502,
+			"Setting up libsasl2-modules-db:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.005588,
+			"Setting up unzip (6.0-21+deb9u2) ...\r\r\n"
+		],
+		[
+			0.006887,
+			"Setting up libsasl2-2:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004638,
+			"Setting up libtasn1-6:amd64 (4.10-1.1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.005285,
+			"Setting up libgmp10:amd64 (2:6.1.2+dfsg-1) ...\r\r\n"
+		],
+		[
+			0.004536,
+			"Setting up libssh2-1:amd64 (1.7.0-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004872,
+			"Setting up krb5-locales (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.006179,
+			"Processing triggers for libc-bin (2.24-11+deb9u4) ...\r\r\n"
+		],
+		[
+			0.009272,
+			"Setting up publicsuffix (20190415.1030-0+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004905,
+			"Setting up libunistring0:amd64 (0.9.6+really0.9.3-0.1) ...\r\r\n"
+		],
+		[
+			0.006712,
+			"Setting up openssl (1.1.0l-1~deb9u1) ...\r\r\n"
+		],
+		[
+			0.007247,
+			"Setting up libffi6:amd64 (3.2.1-6) ...\r\r\n"
+		],
+		[
+			0.005347,
+			"Setting up libkeyutils1:amd64 (1.5.9-9) ...\r\r\n"
+		],
+		[
+			0.004655,
+			"Setting up libsasl2-modules:amd64 (2.1.27~101-g0780600+dfsg-3+deb9u1) ...\r\r\n"
+		],
+		[
+			0.009237,
+			"Setting up ca-certificates (20161130+nmu1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.076992,
+			"debconf: unable to initialize frontend: Dialog\r\r\ndebconf: (TERM is not set, so the dialog frontend is not usable.)\r\r\ndebconf: falling back to frontend: Readline\r\r\n"
+		],
+		[
+			0.000215,
+			"debconf: unable to initialize frontend: Readline\r\r\ndebconf: (Can't locate Term/ReadLine.pm in @INC (you may need to install the Term::ReadLine module) (@INC contains: /etc/perl /usr/local/lib/x86_64-linux-gnu/perl/5.24.1 /usr/local/share/perl/5.24.1 /usr/lib/x86_64-linux-gnu/perl5/5.24 /usr/share/perl5 /usr/lib/x86_64-linux-gnu/perl/5.24 /usr/share/perl/5.24 /usr/local/lib/site_perl /usr/lib/x86_64-linux-gnu/perl-base .) at /usr/share/perl5/Debconf/FrontEnd/Readline.pm line 7.)\r\r\ndebconf: falling back to frontend: Teletype\r\r\n"
+		],
+		[
+			0.440236,
+			"Updating certificates in /etc/ssl/certs...\r\r\n"
+		],
+		[
+			1.857052,
+			"151 added, 0 removed; done.\r\r\n"
+		],
+		[
+			0.018881,
+			"Setting up libidn2-0:amd64 (0.16-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.005988,
+			"Setting up libpsl5:amd64 (0.17.0-3) ...\r\r\n"
+		],
+		[
+			0.005060,
+			"Setting up libkrb5support0:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004774,
+			"Setting up libhogweed4:amd64 (3.3-1+b2) ...\r\r\n"
+		],
+		[
+			0.004642,
+			"Setting up libp11-kit0:amd64 (0.23.3-2) ...\r\r\n"
+		],
+		[
+			0.005092,
+			"Setting up libk5crypto3:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.005254,
+			"Setting up libgnutls30:amd64 (3.5.8-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.006756,
+			"Setting up librtmp1:amd64 (2.4+20151223.gitfa8646d.1-1+b1) ...\r\r\n"
+		],
+		[
+			0.006955,
+			"Setting up libldap-2.4-2:amd64 (2.4.44+dfsg-5+deb9u4) ...\r\r\n"
+		],
+		[
+			0.005584,
+			"Setting up libkrb5-3:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.004835,
+			"Setting up libgssapi-krb5-2:amd64 (1.15-1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.007869,
+			"Setting up libcurl3:amd64 (7.52.1-5+deb9u10) ...\r\r\n"
+		],
+		[
+			0.004470,
+			"Setting up curl (7.52.1-5+deb9u10) ...\r\r\n"
+		],
+		[
+			0.004701,
+			"Processing triggers for libc-bin (2.24-11+deb9u4) ...\r\r\n"
+		],
+		[
+			0.007754,
+			"Processing triggers for ca-certificates (20161130+nmu1+deb9u1) ...\r\r\n"
+		],
+		[
+			0.006051,
+			"Updating certificates in /etc/ssl/certs...\r\r\n"
+		],
+		[
+			0.513472,
+			"0 added, 0 removed; done.\r\r\nRunning hooks in /etc/ca-certificates/update.d...\r\r\n"
+		],
+		[
+			0.001154,
+			"done.\r\r\n"
+		],
+		[
+			0.584633,
+			"Removing intermediate container aaa349ce64aa\r\n"
+		],
+		[
+			0.000032,
+			" ---> 20fe33134bbb\r\nStep 5/17 : COPY softhsm.conf /etc/softhsm/softhsm2.conf\r\n"
+		],
+		[
+			0.130702,
+			" ---> 508bb9f5cc93\r\n"
+		],
+		[
+			0.000030,
+			"Step 6/17 : RUN mkdir -p /var/lib/softhsm/tokens/\r\n"
+		],
+		[
+			0.049365,
+			" ---> Running in 9e1523025d5e\r\n"
+		],
+		[
+			0.508336,
+			"Removing intermediate container 9e1523025d5e\r\n"
+		],
+		[
+			0.000039,
+			" ---> b8bb538c310d\r\nStep 7/17 : RUN softhsm2-util --init-token --slot 0 --label \"vault_hsm\" --pin 1234 --so-pin 5678"
+		],
+		[
+			0.000013,
+			"\r\n"
+		],
+		[
+			0.043916,
+			" ---> Running in bb6654b24c0d\r\n"
+		],
+		[
+			0.238583,
+			"The token has been initialized.\r\n"
+		],
+		[
+			0.257928,
+			"Removing intermediate container bb6654b24c0d\r\n"
+		],
+		[
+			0.000046,
+			" ---> 03d1bf6cfa51\r\nStep 8/17 : RUN curl -o /tmp/vault-ent-hsm.zip https://releases.hashicorp.com/vault/1.3.0+ent.hsm/vault_1.3.0+ent.hsm_linux_amd64.zip\r\n"
+		],
+		[
+			0.040594,
+			" ---> Running in c5619f4ed232\r\n"
+		],
+		[
+			0.229841,
+			"\u001b[91m  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current\r\n                                 Dload  Upload   Total   Spent    Left  Speed\r\n\r  0     0    0     0    0     0 \u001b[0m"
+		],
+		[
+			0.000120,
+			"\u001b[91m     0      0 --:--:-- --:--:-- --:--:--     0\u001b[0m"
+		],
+		[
+			0.624401,
+			"\u001b[91m\r  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0\u001b[0m"
+		],
+		[
+			0.951274,
+			"\u001b[91m\r  2 4\u001b[0m"
+		],
+		[
+			0.000044,
+			"\u001b[91m6.3M\u001b[0m"
+		],
+		[
+			0.000114,
+			"\u001b[91m  \u001b[0m"
+		],
+		[
+			0.000025,
+			"\u001b[91m  2 \u001b[0m"
+		],
+		[
+			0.000099,
+			"\u001b[91m1\u001b[0m"
+		],
+		[
+			0.000088,
+			"\u001b[91m2\u001b[0m"
+		],
+		[
+			0.000021,
+			"\u001b[91m01\u001b[0m"
+		],
+		[
+			0.000077,
+			"\u001b[91mk  \u001b[0m"
+		],
+		[
+			0.000022,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000238,
+			"\u001b[91m 0 \u001b[0m"
+		],
+		[
+			0.000297,
+			"\u001b[91m    0\u001b[0m"
+		],
+		[
+			0.000043,
+			"\u001b[91m  \u001b[0m\u001b[91m 7\u001b[0m\u001b[91m6\u001b[0m"
+		],
+		[
+			0.000111,
+			"\u001b[91m2k  \u001b[0m"
+		],
+		[
+			0.000107,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000021,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000078,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000023,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000103,
+			"\u001b[91m0 \u001b[0m"
+		],
+		[
+			0.000023,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000112,
+			"\u001b[91m0:\u001b[0m"
+		],
+		[
+			0.000024,
+			"\u001b[91m0\u001b[0m"
+		],
+		[
+			0.000146,
+			"\u001b[91m1:\u001b[0m"
+		],
+		[
+			0.000122,
+			"\u001b[91m02 \u001b[0m"
+		],
+		[
+			0.000100,
+			"\u001b[91m \u001b[0m"
+		],
+		[
+			0.000087,
+			"\u001b[91m0\u001b[0m"
+		],
+		[
+			0.000147,
+			"\u001b[91m:0\u001b[0m"
+		],
+		[
+			0.000163,
+			"\u001b[91m0:01\u001b[0m"
+		],
+		[
+			0.000226,
+			"\u001b[91m  0\u001b[0m"
+		],
+		[
+			0.000137,
+			"\u001b[91m:0\u001b[0m"
+		],
+		[
+			0.000093,
+			"\u001b[91m1:\u001b[0m"
+		],
+		[
+			0.000021,
+			"\u001b[91m0\u001b[0m\u001b[91m1 \u001b[0m"
+		],
+		[
+			0.000055,
+			"\u001b[91m 7\u001b[0m"
+		],
+		[
+			0.000242,
+			"\u001b[91m62k\u001b[0m"
+		],
+		[
+			0.996520,
+			"\u001b[91m\r  9 46.3M    9 4513k    0     0  1752k      0  0:00:27  0:00:02  0:00:25 1752k\u001b[0m"
+		],
+		[
+			0.999684,
+			"\u001b[91m\r 17 46.3M   17 8417k    0     0  2354k      0  0:00:20  0:00:03  0:00:17\u001b[0m"
+		],
+		[
+			0.000100,
+			"\u001b[91m 2353k\u001b[0m"
+		],
+		[
+			1.001639,
+			"\u001b[91m\r 28 46.3M   28 13.1M    0     0  2933k      0  0:00:16  0:00:04  0:00:12 2933k\u001b[0m"
+		],
+		[
+			0.999293,
+			"\u001b[91m\r 38 46.3M   38 17.9M    0     0  3299k      0  0:00:14 \u001b[0m"
+		],
+		[
+			0.000098,
+			"\u001b[91m 0:00:05  0:00:09 3715k\u001b[0m"
+		],
+		[
+			1.004413,
+			"\u001b[91m\r 48 46.3M   48 22.3M    0     0  3482k      0  0:00:13  0:0\u001b[0m\u001b[91m0:06  0:00:07 4338k\u001b[0m"
+		],
+		[
+			0.996301,
+			"\u001b[91m\r 59 46.3M   59 27.6M    0     0  3738k      0  0:00:12  0:00:07  0:00:05 4761k\u001b[0m"
+		],
+		[
+			1.003788,
+			"\u001b[91m\r 71 46.3M   71 33.2M    0     0  3966k      0  0:00:11  0:00:08  0:00:03 5118k\u001b[0m"
+		],
+		[
+			0.997819,
+			"\u001b[91m\r 84 46.3M   84 38.9M    0     0  4167k      0  0:00:11  0:00:09  0:00:02 5298k\u001b[0m"
+		],
+		[
+			1.001840,
+			"\u001b[91m\r 95 46.3M   95 44.2M    0     0  4284k      0  0:00:11  0:00:10  0:00:01 5381k\u001b[0m"
+		],
+		[
+			0.329278,
+			"\u001b[91m\r100 46.3M  100 46.3M    0     0  4346k      0  0:00:10  0:00:10 --:--:-- 5662k\r\n\u001b[0m"
+		],
+		[
+			0.555776,
+			"Removing intermediate container c5619f4ed232\r\n"
+		],
+		[
+			0.000061,
+			" ---> 9e1d22d7a00a\r\nStep 9/17 : RUN unzip -o /tmp/vault-ent-hsm.zip -d /tmp\r\n"
+		],
+		[
+			0.033127,
+			" ---> Running in 1653f3f6cd85\r\n"
+		],
+		[
+			0.199423,
+			"Archive:  /tmp/vault-ent-hsm.zip\r\n  inflating: /tmp/vault              "
+		],
+		[
+			0.921740,
+			"\r\n"
+		],
+		[
+			1.168557,
+			"Removing intermediate container 1653f3f6cd85\r\n"
+		],
+		[
+			0.000064,
+			" ---> 69042e92a81c\r\nStep 10/17 : RUN cp /tmp/vault /usr/local/bin/vault\r\n"
+		],
+		[
+			0.042060,
+			" ---> Running in 6b10db8f76bf\r\n"
+		],
+		[
+			1.469777,
+			"Removing intermediate container 6b10db8f76bf\r\n ---> fc687e2500f1\r\nStep 11/17 : RUN chmod u+x /usr/local/bin/vault\r\n"
+		],
+		[
+			0.033459,
+			" ---> Running in 0448105c0fd9\r\n"
+		],
+		[
+			1.443384,
+			"Removing intermediate container 0448105c0fd9\r\n"
+		],
+		[
+			0.000048,
+			" ---> e1f988da8df5\r\nStep 12/17 : RUN /usr/sbin/groupadd --force --system vault\r\n"
+		],
+		[
+			0.042360,
+			" ---> Running in 968d5642a7f6\r\n"
+		],
+		[
+			0.443084,
+			"Removing intermediate container 968d5642a7f6\r\n"
+		],
+		[
+			0.000036,
+			" ---> f53e17121c14\r\nStep 13/17 : RUN /usr/sbin/adduser --system --no-create-home --shell /bin/false vault\r\n"
+		],
+		[
+			0.043106,
+			" ---> Running in 358cd4e099f4\r\n"
+		],
+		[
+			5.226557,
+			"Adding system user `vault' (UID 101) ...\r\nAdding new user `vault' (UID 101) with group `nogroup' ...\r\n"
+		],
+		[
+			0.026368,
+			"Not creating home directory `/home/vault'.\r\n"
+		],
+		[
+			0.214559,
+			"Removing intermediate container 358cd4e099f4\r\n"
+		],
+		[
+			0.000031,
+			" ---> 8bd4f49b8bd9\r\nStep 14/17 : RUN mkdir -p /home/vault/data\r\n"
+		],
+		[
+			0.034366,
+			" ---> Running in 9570df58f8a6\r\n"
+		],
+		[
+			0.432163,
+			"Removing intermediate container 9570df58f8a6\r\n ---> bc60711b158e\r\nStep 15/17 : RUN chown -R vault:vault /home/vault/data"
+		],
+		[
+			0.000113,
+			"\r\n"
+		],
+		[
+			0.032939,
+			" ---> Running in 5e1ac4fcae64\r\n"
+		],
+		[
+			0.421525,
+			"Removing intermediate container 5e1ac4fcae64\r\n"
+		],
+		[
+			0.000032,
+			" ---> 3fc37a90cb4e\r\nStep 16/17 : EXPOSE 8200:8200\r\n"
+		],
+		[
+			0.033060,
+			" ---> Running in 9dbae70f0a51\r\n"
+		],
+		[
+			0.082955,
+			"Removing intermediate container 9dbae70f0a51\r\n"
+		],
+		[
+			0.000036,
+			" ---> a852dc278053\r\nStep 17/17 : CMD [\"vault version\"]\r\n"
+		],
+		[
+			0.042586,
+			" ---> Running in 581cad5a244a\r\n"
+		],
+		[
+			0.092749,
+			"Removing intermediate container 581cad5a244a\r\n"
+		],
+		[
+			0.000030,
+			" ---> d865a9759bf9\r\n[Warning] One or more build-args [VAULT_VERSION:1.3.0] were not consumed\r\n"
+		],
+		[
+			0.000394,
+			"Successfully built d865a9759bf9\r\n"
+		],
+		[
+			0.003084,
+			"Successfully tagged docker_vault:latest\r\n"
+		],
+		[
+			0.078125,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000122,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % \u001b[K\u001b[?2004h"
+		],
+		[
+			293.563354,
+			"\u001b[7mdocker-compose up -d\u001b[27m"
+		],
+		[
+			0.316619,
+			"\u001b[20D\u001b[27md\u001b[27mo\u001b[27mc\u001b[27mk\u001b[27me\u001b[27mr\u001b[27m-\u001b[27mc\u001b[27mo\u001b[27mm\u001b[27mp\u001b[27mo\u001b[27ms\u001b[27me\u001b[27m \u001b[27mu\u001b[27mp\u001b[27m \u001b[27m-\u001b[27md"
+		],
+		[
+			0.000050,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.431235,
+			"Creating docker_vault_1 ... \r\r\n"
+		],
+		[
+			0.317637,
+			"\u001b[1A\u001b[2K\rCreating docker_vault_1 ... \u001b[32mdone\u001b[0m\r\u001b[1B"
+		],
+		[
+			0.044344,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000146,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000014,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			2.846071,
+			"\u001b[7mexport VAULT_ADDR=\"http://127.0.0.1:8200\"\u001b[27m"
+		],
+		[
+			0.246393,
+			"\u001b[41D\u001b[27me\u001b[27mx\u001b[27mp\u001b[27mo\u001b[27mr\u001b[27mt\u001b[27m \u001b[27mV\u001b[27mA\u001b[27mU\u001b[27mL\u001b[27mT\u001b[27m_\u001b[27mA\u001b[27mD\u001b[27mD\u001b[27mR\u001b[27m=\u001b[27m\"\u001b[27mh\u001b[27mt\u001b[27mt\u001b[27mp\u001b[27m:\u001b[27m/\u001b[27m/\u001b[27m1\u001b[27m2\u001b[27m7\u001b[27m.\u001b[27m0\u001b[27m.\u001b[27m0\u001b[27m.\u001b[27m1\u001b[27m:\u001b[27m8\u001b[27m2\u001b[27m0\u001b[27m0\u001b[27m\""
+		],
+		[
+			0.000041,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.000100,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000038,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % \u001b[K\u001b[?2004h"
+		],
+		[
+			2.675708,
+			"\u001b[7mexport VAULT_SKIP_VERIFY=true\u001b[27m"
+		],
+		[
+			0.621003,
+			"\u001b[29D\u001b[27me\u001b[27mx\u001b[27mp\u001b[27mo\u001b[27mr\u001b[27mt\u001b[27m \u001b[27mV\u001b[27mA\u001b[27mU\u001b[27mL\u001b[27mT\u001b[27m_\u001b[27mS\u001b[27mK\u001b[27mI\u001b[27mP\u001b[27m_\u001b[27mV\u001b[27mE\u001b[27mR\u001b[27mI\u001b[27mF\u001b[27mY\u001b[27m=\u001b[27mt\u001b[27mr\u001b[27mu\u001b[27me"
+		],
+		[
+			0.000032,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.000081,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000082,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % \u001b[K\u001b[?2004h"
+		],
+		[
+			2.754391,
+			"\u001b[7mexport VAULT_TOKEN=root\u001b[27m"
+		],
+		[
+			0.282323,
+			"\u001b[23D\u001b[27me\u001b[27mx\u001b[27mp\u001b[27mo\u001b[27mr\u001b[27mt\u001b[27m \u001b[27mV\u001b[27mA\u001b[27mU\u001b[27mL\u001b[27mT\u001b[27m_\u001b[27mT\u001b[27mO\u001b[27mK\u001b[27mE\u001b[27mN\u001b[27m=\u001b[27mr\u001b[27mo\u001b[27mo\u001b[27mt"
+		],
+		[
+			0.000025,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.000083,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000035,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % \u001b[K\u001b[?2004h"
+		],
+		[
+			2.445209,
+			"\u001b[7mvault secrets enable -external-entropy-access transit\u001b[27m"
+		],
+		[
+			0.251516,
+			"\u001b[53D\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m \u001b[27ms\u001b[27me\u001b[27mc\u001b[27mr\u001b[27me\u001b[27mt\u001b[27ms\u001b[27m \u001b[27me\u001b[27mn\u001b[27ma\u001b[27mb\u001b[27ml\u001b[27me\u001b[27m \u001b[27m-\u001b[27me\u001b[27mx\u001b[27mt\u001b[27me\u001b[27mr\u001b[27mn\u001b[27ma\u001b[27ml\u001b[27m-\u001b[27me\u001b[27mn\u001b[27mt\u001b[27mr\u001b[27mo\u001b[27mp\u001b[27my\u001b[27m-\u001b[27ma\u001b[27mc\u001b[27mc\u001b[27me\u001b[27ms\u001b[27ms\u001b[27m \u001b[27mt\u001b[27mr\u001b[27ma\u001b[27mn\u001b[27ms\u001b[27mi\u001b[27mt\u001b[?2004l\r\r\n"
+		],
+		[
+			0.041096,
+			"\u001b[0mSuccess! Enabled the transit secrets engine at: transit/\u001b[0m\r\n"
+		],
+		[
+			0.001305,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000059,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000020,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			3.316980,
+			"\u001b[7mvault secrets list -detailed\u001b[27m"
+		],
+		[
+			0.224733,
+			"\u001b[28D\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m \u001b[27ms\u001b[27me\u001b[27mc\u001b[27mr\u001b[27me\u001b[27mt\u001b[27ms\u001b[27m \u001b[27ml\u001b[27mi\u001b[27ms\u001b[27mt\u001b[27m \u001b[27m-\u001b[27md\u001b[27me\u001b[27mt\u001b[27ma\u001b[27mi\u001b[27ml\u001b[27me\u001b[27md"
+		],
+		[
+			0.000046,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.036013,
+			"\u001b[0mPath          Plugin       Accessor              Default TTL    Max TTL    Force No Cache    Replication    Seal Wrap    External Entropy Access    Options           Description                                                UUID\r\n----          ------       --------              -----------    -------    --------------    -----------    ---------    -----------------------    -------           -----------                                                ----\r\ncubbyhole/    cubbyhole    cubbyhole_8502e2c9    n/a            n/a        false             local          false        false                      map[]             per-token private secret storage                           d9c21776-3946-fb85-7f5d-83980cd6260a\r\nidentity/     identity     identity_d64490dd     system         system     false             replicated     false        false                      map[]             identity store                                             c889f6a2-19d3-e4ea-b95e-abda4423f38b\r\nsecret/       kv           kv_d9"
+		],
+		[
+			0.000095,
+			"932533           system         system     false             replicated     false        false                      map[version:1]    key/value secret storage                                   c4630a3d-8891-c8ef-b4ca-486079f5284c\r\nsys/          system       system_4e265306       n/a            n/a        false             replicated     false        false                      map[]             system endpoints used for control, policy and debugging    ef6e1470-1c31-6c96-b779-b5e05a74cf47\r\ntransit/      transit      transit_60fac21a      system         system     false             replicated     false        true                       map[]             n/a                                                        b9cb92d2-504e-e98b-03c0-b87fb73ca347\u001b[0m\r\n"
+		],
+		[
+			0.001485,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000070,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000010,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			3.079360,
+			"\u001b[7mvault write -f transit/keys/orders\u001b[27m"
+		],
+		[
+			0.224065,
+			"\u001b[34D\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m \u001b[27mw\u001b[27mr\u001b[27mi\u001b[27mt\u001b[27me\u001b[27m \u001b[27m-\u001b[27mf\u001b[27m \u001b[27mt\u001b[27mr\u001b[27ma\u001b[27mn\u001b[27ms\u001b[27mi\u001b[27mt\u001b[27m/\u001b[27mk\u001b[27me\u001b[27my\u001b[27ms\u001b[27m/\u001b[27mo\u001b[27mr\u001b[27md\u001b[27me\u001b[27mr\u001b[27ms\u001b[?2004l\r\r\n"
+		],
+		[
+			0.033941,
+			"\u001b[0mSuccess! Data written to: transit/keys/orders\u001b[0m\r\n"
+		],
+		[
+			0.001445,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000062,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000014,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			2.783028,
+			"\u001b[7mvault write transit/encrypt/orders plaintext=$(base64 <<< \"4111 1111 1111 1111\")\u001b[27m"
+		],
+		[
+			0.308486,
+			"\u001b[80D\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m \u001b[27mw\u001b[27mr\u001b[27mi\u001b[27mt\u001b[27me\u001b[27m \u001b[27mt\u001b[27mr\u001b[27ma\u001b[27mn\u001b[27ms\u001b[27mi\u001b[27mt\u001b[27m/\u001b[27me\u001b[27mn\u001b[27mc\u001b[27mr\u001b[27my\u001b[27mp\u001b[27mt\u001b[27m/\u001b[27mo\u001b[27mr\u001b[27md\u001b[27me\u001b[27mr\u001b[27ms\u001b[27m \u001b[27mp\u001b[27ml\u001b[27ma\u001b[27mi\u001b[27mn\u001b[27mt\u001b[27me\u001b[27mx\u001b[27mt\u001b[27m=\u001b[27m$\u001b[27m(\u001b[27mb\u001b[27ma\u001b[27ms\u001b[27me\u001b[27m6\u001b[27m4\u001b[27m \u001b[27m<\u001b[27m<\u001b[27m<\u001b[27m \u001b[27m\"\u001b[27m4\u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m \u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m \u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m \u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m1\u001b[27m\"\u001b[27m)"
+		],
+		[
+			0.000055,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.044353,
+			"\u001b[0mKey           Value\r\n---           -----\r\nciphertext    vault:v1:UsiNQTpmuywOvH614qE0iM0VQJAWV9mAuPlf0W/EBQ4UvPAhDT8xripuPDvcVGDM\u001b[0m\r\n"
+		],
+		[
+			0.001402,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000063,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000026,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			3.248526,
+			"\u001b[7mvault write transit/decrypt/orders ciphertext=\"vault:v1:AY3ZF2bwGfwZ9dJLSztCLdpPUHkfl/kwaQeRITvKgn74bGYyMI+n34w1CMO8aeg=\"\u001b[27m"
+		],
+		[
+			0.876188,
+			"\u001b[121D\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m \u001b[27mw\u001b[27mr\u001b[27mi\u001b[27mt\u001b[27me\u001b[27m \u001b[27mt\u001b[27mr\u001b[27ma\u001b[27mn\u001b[27ms\u001b[27mi\u001b[27mt\u001b[27m/\u001b[27md\u001b[27me\u001b[27mc\u001b[27mr\u001b[27my\u001b[27mp\u001b[27mt\u001b[27m/\u001b[27mo\u001b[27mr\u001b[27md\u001b[27me\u001b[27mr\u001b[27ms\u001b[27m \u001b[27mc\u001b[27mi\u001b[27mp\u001b[27mh\u001b[27me\u001b[27mr\u001b[27mt\u001b[27me\u001b[27mx\u001b[27mt\u001b[27m=\u001b[27m\"\u001b[27mv\u001b[27ma\u001b[27mu\u001b[27ml\u001b[27mt\u001b[27m:\u001b[27mv\u001b[27m1\u001b[27m:\u001b[27mA\u001b[27mY\u001b[27m3\u001b[27mZ\u001b[27mF\u001b[27m2\u001b[27mb\u001b[27mw\u001b[27mG\u001b[27mf\u001b[27mw\u001b[27mZ\u001b[27m9\u001b[27md\u001b[27mJ\u001b[27mL\u001b[27mS\u001b[27mz\u001b[27mt\u001b[27mC\u001b[27mL\u001b[27md\u001b[27mp\u001b[27mP\u001b[27mU\u001b[27mH\u001b[27mk\u001b[27mf\u001b[27ml\u001b[27m/\u001b[27mk\u001b[27mw\u001b[27ma\u001b[27mQ\u001b[27me\u001b[27mR\u001b[27mI\u001b[27mT\u001b[27mv\u001b[27mK\u001b[27mg\u001b[27mn\u001b[27m7\u001b[27m4\u001b[27mb\u001b[27mG\u001b[27mY\u001b[27my\u001b[27mM\u001b[27mI\u001b[27m+\u001b[27mn\u001b[27m3\u001b[27m4\u001b[27mw\u001b[27m1\u001b[27mC\u001b[27mM\u001b[27mO\u001b[27m8\u001b[27ma\u001b[27me\u001b[27mg\u001b[27m=\u001b[27m \b"
+		],
+		[
+			0.500553,
+			"\b \b"
+		],
+		[
+			0.082965,
+			"\b \b"
+		],
+		[
+			0.083012,
+			"\b \b"
+		],
+		[
+			0.084517,
+			"\b \b"
+		],
+		[
+			0.083534,
+			"\b \b"
+		],
+		[
+			0.083379,
+			"\b \b"
+		],
+		[
+			0.084071,
+			"\b \b"
+		],
+		[
+			0.084163,
+			"\b \b"
+		],
+		[
+			0.083838,
+			"\b \b"
+		],
+		[
+			0.083424,
+			"\b \b"
+		],
+		[
+			0.083241,
+			"\b \b"
+		],
+		[
+			0.084132,
+			"\b \b"
+		],
+		[
+			0.082225,
+			"\b \b"
+		],
+		[
+			0.084639,
+			"\b \b"
+		],
+		[
+			0.083140,
+			"\b \b"
+		],
+		[
+			0.082702,
+			"\b \b"
+		],
+		[
+			0.082703,
+			"\b \b"
+		],
+		[
+			0.083819,
+			"\b \b"
+		],
+		[
+			0.083105,
+			"\b \b"
+		],
+		[
+			0.083323,
+			"\b \b"
+		],
+		[
+			0.084201,
+			"\b \b"
+		],
+		[
+			0.083327,
+			"\b \b"
+		],
+		[
+			0.084102,
+			"\b \b"
+		],
+		[
+			0.084088,
+			"\b \b"
+		],
+		[
+			0.082178,
+			"\b \b"
+		],
+		[
+			0.085135,
+			"\b \b"
+		],
+		[
+			0.084067,
+			"\b \b"
+		],
+		[
+			0.083849,
+			"\b \b"
+		],
+		[
+			0.083350,
+			"\b \b"
+		],
+		[
+			0.084744,
+			"\b \b"
+		],
+		[
+			0.082166,
+			"\b \b"
+		],
+		[
+			0.083523,
+			"\b \b"
+		],
+		[
+			0.084113,
+			"\b \b"
+		],
+		[
+			0.084159,
+			"\b \b"
+		],
+		[
+			0.084802,
+			"\b \b"
+		],
+		[
+			0.082980,
+			"\b \b"
+		],
+		[
+			0.082923,
+			"\b \b"
+		],
+		[
+			0.084650,
+			"\b \b"
+		],
+		[
+			0.083187,
+			"\b \b"
+		],
+		[
+			0.084354,
+			"\b \b"
+		],
+		[
+			0.082016,
+			"\b \b"
+		],
+		[
+			0.083838,
+			"\b \b"
+		],
+		[
+			0.082157,
+			"\b \b"
+		],
+		[
+			0.084354,
+			"\b \b"
+		],
+		[
+			0.084197,
+			"\b \b"
+		],
+		[
+			0.083820,
+			"\b \b"
+		],
+		[
+			0.084448,
+			"\b \b"
+		],
+		[
+			0.083036,
+			"\b \b"
+		],
+		[
+			0.083219,
+			"\b \b"
+		],
+		[
+			0.084852,
+			"\b \b"
+		],
+		[
+			0.083905,
+			"\b \b"
+		],
+		[
+			0.083176,
+			"\b \b"
+		],
+		[
+			0.083433,
+			"\b \b"
+		],
+		[
+			0.083383,
+			"\b \b"
+		],
+		[
+			0.081983,
+			"\b \b"
+		],
+		[
+			0.084559,
+			"\b \b"
+		],
+		[
+			0.082472,
+			"\b \b"
+		],
+		[
+			0.083174,
+			"\b \b"
+		],
+		[
+			0.083478,
+			"\b \b"
+		],
+		[
+			0.084069,
+			"\b \b"
+		],
+		[
+			0.082303,
+			"\b \b"
+		],
+		[
+			0.160253,
+			"\b \b"
+		],
+		[
+			0.162413,
+			"\b \b"
+		],
+		[
+			0.235867,
+			"\b \b"
+		],
+		[
+			3.761442,
+			"\u001b[7mUsiNQTpmuywOvH614qE0iM0VQJAWV9mAuPlf0W/EBQ4UvPAhDT8xripuPDvcVGDM\u001b[27m"
+		],
+		[
+			0.535724,
+			"\u001b[64D\u001b[27mU\u001b[27ms\u001b[27mi\u001b[27mN\u001b[27mQ\u001b[27mT\u001b[27mp\u001b[27mm\u001b[27mu\u001b[27my\u001b[27mw\u001b[27mO\u001b[27mv\u001b[27mH\u001b[27m6\u001b[27m1\u001b[27m4\u001b[27mq\u001b[27mE\u001b[27m0\u001b[27mi\u001b[27mM\u001b[27m0\u001b[27mV\u001b[27mQ\u001b[27mJ\u001b[27mA\u001b[27mW\u001b[27mV\u001b[27m9\u001b[27mm\u001b[27mA\u001b[27mu\u001b[27mP\u001b[27ml\u001b[27mf\u001b[27m0\u001b[27mW\u001b[27m/\u001b[27mE\u001b[27mB\u001b[27mQ\u001b[27m4\u001b[27mU\u001b[27mv\u001b[27mP\u001b[27mA\u001b[27mh\u001b[27mD\u001b[27mT\u001b[27m8\u001b[27mx\u001b[27mr\u001b[27mi\u001b[27mp\u001b[27mu\u001b[27mP\u001b[27mD\u001b[27mv\u001b[27mc\u001b[27mV\u001b[27mG\u001b[27mD\u001b[27mM\""
+		],
+		[
+			0.707172,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.033128,
+			"\u001b[0mKey          Value\r\n---          -----\r\nplaintext    NDExMSAxMTExIDExMTEgMTExMQo=\u001b[0m\r\n"
+		],
+		[
+			0.001267,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000060,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000009,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			5.890159,
+			"\u001b[7mbase64 --decode <<< \u001b[27m"
+		],
+		[
+			4.298050,
+			"\u001b[20D\u001b[27mb\u001b[27ma\u001b[27ms\u001b[27me\u001b[27m6\u001b[27m4\u001b[27m \u001b[27m-\u001b[27m-\u001b[27md\u001b[27me\u001b[27mc\u001b[27mo\u001b[27md\u001b[27me\u001b[27m \u001b[27m<\u001b[27m<\u001b[27m<\u001b[27m \u001b[7mNDExMSAxMTExIDExMTEgMTExMQo=\u001b[27m"
+		],
+		[
+			0.514397,
+			"\u001b[28D\u001b[27mN\u001b[27mD\u001b[27mE\u001b[27mx\u001b[27mM\u001b[27mS\u001b[27mA\u001b[27mx\u001b[27mM\u001b[27mT\u001b[27mE\u001b[27mx\u001b[27mI\u001b[27mD\u001b[27mE\u001b[27mx\u001b[27mM\u001b[27mT\u001b[27mE\u001b[27mg\u001b[27mM\u001b[27mT\u001b[27mE\u001b[27mx\u001b[27mM\u001b[27mQ\u001b[27mo\u001b[27m="
+		],
+		[
+			0.000039,
+			"\u001b[?2004l\r\r\n"
+		],
+		[
+			0.009445,
+			"4111 1111 1111 1111\r\n"
+		],
+		[
+			0.000455,
+			"\u001b[1m\u001b[7m%\u001b[27m\u001b[1m\u001b[0m                                                                                                                                                                                                                                                             \r \r"
+		],
+		[
+			0.000071,
+			"\r\u001b[0m\u001b[27m\u001b[24m\u001b[Jpetersouter@Peters-MBP docker % "
+		],
+		[
+			0.000031,
+			"\u001b[K\u001b[?2004h"
+		],
+		[
+			7.293989,
+			"e"
+		],
+		[
+			0.340372,
+			"\bex"
+		],
+		[
+			0.056066,
+			"i"
+		],
+		[
+			0.183924,
+			"t"
+		],
+		[
+			0.139378,
+			"\u001b[?2004l"
+		],
+		[
+			0.000034,
+			"\r\r\n"
+		]
+	],
+	"duration": 412.691467
+}
